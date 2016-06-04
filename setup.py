@@ -17,8 +17,12 @@ setup(
         ]
     },
     install_requires=[
+        'apispec>=0.12.0',
         'flask>=0.10.1',
+        'flask_restful>=0.3.5',
+        'marshmallow>=2.7.3',
         'ott.otp_client>=0.1.0',
+        'watchdog>=0.8.3',
         'webargs>=1.3.2'
     ],
     license='Mozilla 2.0',
