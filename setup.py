@@ -26,6 +26,7 @@ setup(
     ],
     license='Mozilla 2.0',
     long_description=open('README.rst').read(),
+    namespace_packages=['ott'],
     packages=find_packages(),
     url='https://github.com/OpenTransitTools/api'
 )
