@@ -1,0 +1,3 @@
+- what is a good amount of time to use for transfer penalty if I'm creating a 'minimize transfers setting'
+- what are the units used for transfer penalty?
+- what is 'greenways' option for the optimize parameter?

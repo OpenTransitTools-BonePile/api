@@ -1,0 +1,1330 @@
+-14.4586742787
+189.443568019
+-14.4586742787
+189.443568019
+-14.4586742787
+189.443568019
+{
+    "plan": {
+        "from": {
+            "lat": 45.588927600849516,
+            "lon": -122.5928154509905,
+            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.592815451,45.5889276008/extraparams/format_options=layout:start",
+            "name": "PDX",
+            "stop": null
+        },
+        "itineraries": [
+            {
+                "alerts": [
+                    {
+                        "future": true,
+                        "long_term": false,
+                        "route_id": "90",
+                        "start_date": 1465088400000,
+                        "start_date_pretty": "June 4",
+                        "start_time_pretty": "6:00 pm",
+                        "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                        "type": "ROUTE",
+                        "url": "http://trimet.org/#alerts/90"
+                    }
+                ],
+                "date_info": {
+                    "bike_time_hours": null,
+                    "bike_time_mins": null,
+                    "date": "6/2/2016",
+                    "day": 2,
+                    "drive_time_hours": null,
+                    "drive_time_mins": null,
+                    "duration": "59 minutes",
+                    "duration_min": 59,
+                    "duration_ms": 3559000,
+                    "end_time": "4:08pm",
+                    "end_time_ms": 1464908905000,
+                    "end_transit": "TODO",
+                    "extended": true,
+                    "month": 6,
+                    "pretty_date": "Thursday, June 2, 2016",
+                    "start_time": "3:09pm",
+                    "start_time_ms": 1464905346000,
+                    "start_transit": "TODO",
+                    "text": "",
+                    "total_time_hours": null,
+                    "total_time_mins": 59.0,
+                    "transit_time_hours": null,
+                    "transit_time_mins": 52.0,
+                    "wait_time_hours": null,
+                    "wait_time_mins": null,
+                    "walk_time_hours": null,
+                    "walk_time_mins": 7.0,
+                    "year": 2016
+                },
+                "dominant_mode": "rail",
+                "fare": {
+                    "adult": "$2.50"
+                },
+                "has_alerts": true,
+                "itin_num": 1,
+                "legs": [
+                    {
+                        "alerts": null,
+                        "compass_direction": "southwest",
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "3 minutes",
+                            "duration_ms": 203000,
+                            "end_time": "3:12pm",
+                            "end_time_ms": 1464905549000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "3:09pm",
+                            "start_time_ms": 1464905346000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 751,
+                            "measure": "feet"
+                        },
+                        "distance_feet": 751.0494578276168,
+                        "distance_meters": 228.9784932401271,
+                        "elevation": {
+                            "distance": 228.97849324012714,
+                            "end_ft": "-15.3",
+                            "fall_ft": "-1.0",
+                            "grade": {
+                                "dd": 0.0,
+                                "de": -14.45867427866179,
+                                "down": 0,
+                                "ud": 0.0,
+                                "ue": -14.45867427866179,
+                                "up": 0
+                            },
+                            "high_ft": "-14.5",
+                            "low_ft": "-15.3",
+                            "points": "-14.46,-14.54,-14.52,-14.51,-14.51,-14.52,-14.55,-14.55,-14.56,-14.56,-14.63,-14.60,-14.52,-14.52,-14.51,-14.51,-14.82,-15.17,-15.17,-15.27",
+                            "points_array": [
+                                -14.46,
+                                -14.54,
+                                -14.52,
+                                -14.51,
+                                -14.51,
+                                -14.52,
+                                -14.55,
+                                -14.55,
+                                -14.56,
+                                -14.56,
+                                -14.63,
+                                -14.6,
+                                -14.52,
+                                -14.52,
+                                -14.51,
+                                -14.51,
+                                -14.82,
+                                -15.17,
+                                -15.17,
+                                -15.27
+                            ],
+                            "rise_ft": "0.2",
+                            "start_ft": "-14.5"
+                        },
+                        "from": {
+                            "lat": 45.588927600849516,
+                            "lon": -122.5928154509905,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.592815451,45.5889276008/extraparams/format_options=layout:start",
+                            "name": "PDX",
+                            "stop": null
+                        },
+                        "interline": null,
+                        "mode": "WALK",
+                        "route": null,
+                        "steps": [
+                            {
+                                "compass_direction": "southwest",
+                                "distance": {
+                                    "distance": 102,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 102.10287871753505,
+                                "distance_meters": 31.128926438272885,
+                                "lat": 45.588927600849516,
+                                "lon": -122.5928154509905,
+                                "name": "PDX",
+                                "relative_direction": null
+                            },
+                            {
+                                "compass_direction": "northwest",
+                                "distance": {
+                                    "distance": 172,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 172.16080707460674,
+                                "distance_meters": 52.4880509373801,
+                                "lat": 45.5886833,
+                                "lon": -122.5930108,
+                                "name": "footbridge",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": "southwest",
+                                "distance": {
+                                    "distance": 457,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 457.40087572543877,
+                                "distance_meters": 139.45148650165817,
+                                "lat": 45.5884448,
+                                "lon": -122.5934087,
+                                "name": "path",
+                                "relative_direction": "left"
+                            },
+                            {
+                                "compass_direction": "southeast",
+                                "distance": {
+                                    "distance": 19,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 19.384896310036357,
+                                "distance_meters": 5.910029362815963,
+                                "lat": 45.5876195,
+                                "lon": -122.593152,
+                                "name": "Portland Airport (path)",
+                                "relative_direction": "continue"
+                            }
+                        ],
+                        "to": {
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.5931,45.587584/extraparams/format_options=layout:end",
+                            "name": "Portland Int'l Airport MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10579",
+                                "info": "stop.html?stop_id=10579&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10579&month=6&day=2"
+                            }
+                        },
+                        "transfer": null
+                    },
+                    {
+                        "alerts": [
+                            {
+                                "future": true,
+                                "long_term": false,
+                                "route_id": "90",
+                                "start_date": 1465088400000,
+                                "start_date_pretty": "June 4",
+                                "start_time_pretty": "6:00 pm",
+                                "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                                "type": "ROUTE",
+                                "url": "http://trimet.org/#alerts/90"
+                            }
+                        ],
+                        "compass_direction": null,
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "52 minutes",
+                            "duration_ms": 3120000,
+                            "end_time": "4:04pm",
+                            "end_time_ms": 1464908670000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "3:12pm",
+                            "start_time_ms": 1464905550000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 13.3,
+                            "measure": "miles"
+                        },
+                        "distance_feet": 70329.66261800067,
+                        "distance_meters": 21441.970310366058,
+                        "elevation": null,
+                        "from": {
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.5931,45.587584/extraparams/format_options=layout:start",
+                            "name": "Portland Int'l Airport MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10579",
+                                "info": "stop.html?stop_id=10579&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10579&route=90&month=6&day=2"
+                            }
+                        },
+                        "interline": null,
+                        "mode": "TRAM",
+                        "route": {
+                            "agency_id": "TRIMET",
+                            "agency_name": "TriMet",
+                            "headsign": "City Center & Beaverton",
+                            "id": "90",
+                            "name": "MAX Red Line",
+                            "route_id_cleanup": "\\D.*",
+                            "schedulemap_url": "http://trimet.org/images/schedulemaps/090.gif",
+                            "trip": "6406909",
+                            "url": "http://trimet.org/schedules/r090.htm"
+                        },
+                        "steps": null,
+                        "to": {
+                            "lat": 45.510661,
+                            "lon": -122.717244,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.717244,45.510661/extraparams/format_options=layout:end",
+                            "name": "Washington Park MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10121",
+                                "info": "stop.html?stop_id=10121&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10121&route=90&month=6&day=2"
+                            }
+                        },
+                        "transfer": null
+                    },
+                    {
+                        "alerts": null,
+                        "compass_direction": "east",
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "3 minutes",
+                            "duration_ms": 234000,
+                            "end_time": "4:08pm",
+                            "end_time_ms": 1464908905000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "4:04pm",
+                            "start_time_ms": 1464908671000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 440,
+                            "measure": "feet"
+                        },
+                        "distance_feet": 440.0965963609975,
+                        "distance_meters": 134.17579157347487,
+                        "elevation": {
+                            "distance": 134.17579157347487,
+                            "end_ft": "187.4",
+                            "fall_ft": "-2.0",
+                            "grade": {
+                                "dd": 0.0,
+                                "de": 189.4435680188684,
+                                "down": 0,
+                                "ud": 0.0,
+                                "ue": 189.4435680188684,
+                                "up": 0
+                            },
+                            "high_ft": "189.4",
+                            "low_ft": "187.4",
+                            "points": "189.44,189.39,189.39,189.28,189.28,188.97,188.97,188.77,188.77,188.02,188.02,187.86,187.86,187.65,187.65,187.43",
+                            "points_array": [
+                                189.44,
+                                189.39,
+                                189.39,
+                                189.28,
+                                189.28,
+                                188.97,
+                                188.97,
+                                188.77,
+                                188.77,
+                                188.02,
+                                188.02,
+                                187.86,
+                                187.86,
+                                187.65,
+                                187.65,
+                                187.43
+                            ],
+                            "rise_ft": "0.0",
+                            "start_ft": "189.4"
+                        },
+                        "from": {
+                            "lat": 45.510689399058094,
+                            "lon": -122.71724503733653,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.717245037,45.5106893991/extraparams/format_options=layout:start",
+                            "name": "Washington Park (path)",
+                            "stop": null
+                        },
+                        "interline": null,
+                        "mode": "WALK",
+                        "route": null,
+                        "steps": [
+                            {
+                                "compass_direction": "east",
+                                "distance": {
+                                    "distance": 227,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 227.02295683776845,
+                                "distance_meters": 69.21431610907575,
+                                "lat": 45.510689399058094,
+                                "lon": -122.71724503733653,
+                                "name": "Washington Park (path)",
+                                "relative_direction": null
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 34,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 34.44203500730746,
+                                "distance_meters": 10.500620429057154,
+                                "lat": 45.5107218,
+                                "lon": -122.716358,
+                                "name": "path",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 1,
+                                    "measure": "foot"
+                                },
+                                "distance_feet": 0.0,
+                                "distance_meters": 0.0,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "Elevator",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": null,
+                                "distance": {
+                                    "distance": 1,
+                                    "measure": "foot"
+                                },
+                                "distance_feet": 0.0,
+                                "distance_meters": 0.0,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "default level",
+                                "relative_direction": "ELEVATOR"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 145,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 145.40229665278704,
+                                "distance_meters": 44.32996849170337,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "path",
+                                "relative_direction": "continue"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 33,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 33.229307863134615,
+                                "distance_meters": 10.130886543638603,
+                                "lat": 45.5104792,
+                                "lon": -122.7159693,
+                                "name": "Southwest Zoo Road",
+                                "relative_direction": "right"
+                            }
+                        ],
+                        "to": {
+                            "lat": 45.510242,
+                            "lon": -122.715904,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.715904,45.510242/extraparams/format_options=layout:end",
+                            "name": "Zoo",
+                            "stop": null
+                        },
+                        "transfer": null
+                    }
+                ],
+                "selected": true,
+                "transfers": 0,
+                "url": "planner.html?itin_num=1&from=PDX::45.58918,-122.59346&to=Zoo::45.510242,-122.715904&Hour=03&Minute=02&AmPm=pm&maxHours=6&month=6&day=2&year=2016&Walk=1260&Arr=None&min=QUICK&mode=TRANSIT,WALK"
+            },
+            {
+                "alerts": [
+                    {
+                        "future": true,
+                        "long_term": false,
+                        "route_id": "90",
+                        "start_date": 1465088400000,
+                        "start_date_pretty": "June 4",
+                        "start_time_pretty": "6:00 pm",
+                        "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                        "type": "ROUTE",
+                        "url": "http://trimet.org/#alerts/90"
+                    }
+                ],
+                "date_info": {
+                    "bike_time_hours": null,
+                    "bike_time_mins": null,
+                    "date": "6/2/2016",
+                    "day": 2,
+                    "drive_time_hours": null,
+                    "drive_time_mins": null,
+                    "duration": "59 minutes",
+                    "duration_min": 59,
+                    "duration_ms": 3559000,
+                    "end_time": "4:23pm",
+                    "end_time_ms": 1464909805000,
+                    "end_transit": "TODO",
+                    "extended": true,
+                    "month": 6,
+                    "pretty_date": "Thursday, June 2, 2016",
+                    "start_time": "3:24pm",
+                    "start_time_ms": 1464906246000,
+                    "start_transit": "TODO",
+                    "text": "",
+                    "total_time_hours": null,
+                    "total_time_mins": 59.0,
+                    "transit_time_hours": null,
+                    "transit_time_mins": 52.0,
+                    "wait_time_hours": null,
+                    "wait_time_mins": null,
+                    "walk_time_hours": null,
+                    "walk_time_mins": 7.0,
+                    "year": 2016
+                },
+                "dominant_mode": "rail",
+                "fare": {
+                    "adult": "$2.50"
+                },
+                "has_alerts": true,
+                "itin_num": 2,
+                "legs": [
+                    {
+                        "alerts": null,
+                        "compass_direction": "southwest",
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "3 minutes",
+                            "duration_ms": 203000,
+                            "end_time": "3:27pm",
+                            "end_time_ms": 1464906449000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "3:24pm",
+                            "start_time_ms": 1464906246000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 751,
+                            "measure": "feet"
+                        },
+                        "distance_feet": 751.0494578276168,
+                        "distance_meters": 228.9784932401271,
+                        "elevation": {
+                            "distance": 228.97849324012714,
+                            "end_ft": "-15.3",
+                            "fall_ft": "-1.0",
+                            "grade": {
+                                "dd": 0.0,
+                                "de": -14.45867427866179,
+                                "down": 0,
+                                "ud": 0.0,
+                                "ue": -14.45867427866179,
+                                "up": 0
+                            },
+                            "high_ft": "-14.5",
+                            "low_ft": "-15.3",
+                            "points": "-14.46,-14.54,-14.52,-14.51,-14.51,-14.52,-14.55,-14.55,-14.56,-14.56,-14.63,-14.60,-14.52,-14.52,-14.51,-14.51,-14.82,-15.17,-15.17,-15.27",
+                            "points_array": [
+                                -14.46,
+                                -14.54,
+                                -14.52,
+                                -14.51,
+                                -14.51,
+                                -14.52,
+                                -14.55,
+                                -14.55,
+                                -14.56,
+                                -14.56,
+                                -14.63,
+                                -14.6,
+                                -14.52,
+                                -14.52,
+                                -14.51,
+                                -14.51,
+                                -14.82,
+                                -15.17,
+                                -15.17,
+                                -15.27
+                            ],
+                            "rise_ft": "0.2",
+                            "start_ft": "-14.5"
+                        },
+                        "from": {
+                            "lat": 45.588927600849516,
+                            "lon": -122.5928154509905,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.592815451,45.5889276008/extraparams/format_options=layout:start",
+                            "name": "PDX",
+                            "stop": null
+                        },
+                        "interline": null,
+                        "mode": "WALK",
+                        "route": null,
+                        "steps": [
+                            {
+                                "compass_direction": "southwest",
+                                "distance": {
+                                    "distance": 102,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 102.10287871753505,
+                                "distance_meters": 31.128926438272885,
+                                "lat": 45.588927600849516,
+                                "lon": -122.5928154509905,
+                                "name": "PDX",
+                                "relative_direction": null
+                            },
+                            {
+                                "compass_direction": "northwest",
+                                "distance": {
+                                    "distance": 172,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 172.16080707460674,
+                                "distance_meters": 52.4880509373801,
+                                "lat": 45.5886833,
+                                "lon": -122.5930108,
+                                "name": "footbridge",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": "southwest",
+                                "distance": {
+                                    "distance": 457,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 457.40087572543877,
+                                "distance_meters": 139.45148650165817,
+                                "lat": 45.5884448,
+                                "lon": -122.5934087,
+                                "name": "path",
+                                "relative_direction": "left"
+                            },
+                            {
+                                "compass_direction": "southeast",
+                                "distance": {
+                                    "distance": 19,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 19.384896310036357,
+                                "distance_meters": 5.910029362815963,
+                                "lat": 45.5876195,
+                                "lon": -122.593152,
+                                "name": "Portland Airport (path)",
+                                "relative_direction": "continue"
+                            }
+                        ],
+                        "to": {
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.5931,45.587584/extraparams/format_options=layout:end",
+                            "name": "Portland Int'l Airport MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10579",
+                                "info": "stop.html?stop_id=10579&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10579&month=6&day=2"
+                            }
+                        },
+                        "transfer": null
+                    },
+                    {
+                        "alerts": [
+                            {
+                                "future": true,
+                                "long_term": false,
+                                "route_id": "90",
+                                "start_date": 1465088400000,
+                                "start_date_pretty": "June 4",
+                                "start_time_pretty": "6:00 pm",
+                                "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                                "type": "ROUTE",
+                                "url": "http://trimet.org/#alerts/90"
+                            }
+                        ],
+                        "compass_direction": null,
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "52 minutes",
+                            "duration_ms": 3120000,
+                            "end_time": "4:19pm",
+                            "end_time_ms": 1464909570000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "3:27pm",
+                            "start_time_ms": 1464906450000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 13.3,
+                            "measure": "miles"
+                        },
+                        "distance_feet": 70329.66261800067,
+                        "distance_meters": 21441.970310366058,
+                        "elevation": null,
+                        "from": {
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.5931,45.587584/extraparams/format_options=layout:start",
+                            "name": "Portland Int'l Airport MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10579",
+                                "info": "stop.html?stop_id=10579&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10579&route=90&month=6&day=2"
+                            }
+                        },
+                        "interline": null,
+                        "mode": "TRAM",
+                        "route": {
+                            "agency_id": "TRIMET",
+                            "agency_name": "TriMet",
+                            "headsign": "City Center & Beaverton",
+                            "id": "90",
+                            "name": "MAX Red Line",
+                            "route_id_cleanup": "\\D.*",
+                            "schedulemap_url": "http://trimet.org/images/schedulemaps/090.gif",
+                            "trip": "6406910",
+                            "url": "http://trimet.org/schedules/r090.htm"
+                        },
+                        "steps": null,
+                        "to": {
+                            "lat": 45.510661,
+                            "lon": -122.717244,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.717244,45.510661/extraparams/format_options=layout:end",
+                            "name": "Washington Park MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10121",
+                                "info": "stop.html?stop_id=10121&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10121&route=90&month=6&day=2"
+                            }
+                        },
+                        "transfer": null
+                    },
+                    {
+                        "alerts": null,
+                        "compass_direction": "east",
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "3 minutes",
+                            "duration_ms": 234000,
+                            "end_time": "4:23pm",
+                            "end_time_ms": 1464909805000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "4:19pm",
+                            "start_time_ms": 1464909571000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 440,
+                            "measure": "feet"
+                        },
+                        "distance_feet": 440.0965963609975,
+                        "distance_meters": 134.17579157347487,
+                        "elevation": {
+                            "distance": 134.17579157347487,
+                            "end_ft": "187.4",
+                            "fall_ft": "-2.0",
+                            "grade": {
+                                "dd": 0.0,
+                                "de": 189.4435680188684,
+                                "down": 0,
+                                "ud": 0.0,
+                                "ue": 189.4435680188684,
+                                "up": 0
+                            },
+                            "high_ft": "189.4",
+                            "low_ft": "187.4",
+                            "points": "189.44,189.39,189.39,189.28,189.28,188.97,188.97,188.77,188.77,188.02,188.02,187.86,187.86,187.65,187.65,187.43",
+                            "points_array": [
+                                189.44,
+                                189.39,
+                                189.39,
+                                189.28,
+                                189.28,
+                                188.97,
+                                188.97,
+                                188.77,
+                                188.77,
+                                188.02,
+                                188.02,
+                                187.86,
+                                187.86,
+                                187.65,
+                                187.65,
+                                187.43
+                            ],
+                            "rise_ft": "0.0",
+                            "start_ft": "189.4"
+                        },
+                        "from": {
+                            "lat": 45.510689399058094,
+                            "lon": -122.71724503733653,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.717245037,45.5106893991/extraparams/format_options=layout:start",
+                            "name": "Washington Park (path)",
+                            "stop": null
+                        },
+                        "interline": null,
+                        "mode": "WALK",
+                        "route": null,
+                        "steps": [
+                            {
+                                "compass_direction": "east",
+                                "distance": {
+                                    "distance": 227,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 227.02295683776845,
+                                "distance_meters": 69.21431610907575,
+                                "lat": 45.510689399058094,
+                                "lon": -122.71724503733653,
+                                "name": "Washington Park (path)",
+                                "relative_direction": null
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 34,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 34.44203500730746,
+                                "distance_meters": 10.500620429057154,
+                                "lat": 45.5107218,
+                                "lon": -122.716358,
+                                "name": "path",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 1,
+                                    "measure": "foot"
+                                },
+                                "distance_feet": 0.0,
+                                "distance_meters": 0.0,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "Elevator",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": null,
+                                "distance": {
+                                    "distance": 1,
+                                    "measure": "foot"
+                                },
+                                "distance_feet": 0.0,
+                                "distance_meters": 0.0,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "default level",
+                                "relative_direction": "ELEVATOR"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 145,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 145.40229665278704,
+                                "distance_meters": 44.32996849170337,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "path",
+                                "relative_direction": "continue"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 33,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 33.229307863134615,
+                                "distance_meters": 10.130886543638603,
+                                "lat": 45.5104792,
+                                "lon": -122.7159693,
+                                "name": "Southwest Zoo Road",
+                                "relative_direction": "right"
+                            }
+                        ],
+                        "to": {
+                            "lat": 45.510242,
+                            "lon": -122.715904,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.715904,45.510242/extraparams/format_options=layout:end",
+                            "name": "Zoo",
+                            "stop": null
+                        },
+                        "transfer": null
+                    }
+                ],
+                "selected": false,
+                "transfers": 0,
+                "url": "planner.html?itin_num=2&from=PDX::45.58918,-122.59346&to=Zoo::45.510242,-122.715904&Hour=03&Minute=02&AmPm=pm&maxHours=6&month=6&day=2&year=2016&Walk=1260&Arr=None&min=QUICK&mode=TRANSIT,WALK"
+            },
+            {
+                "alerts": [
+                    {
+                        "future": true,
+                        "long_term": false,
+                        "route_id": "90",
+                        "start_date": 1465088400000,
+                        "start_date_pretty": "June 4",
+                        "start_time_pretty": "6:00 pm",
+                        "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                        "type": "ROUTE",
+                        "url": "http://trimet.org/#alerts/90"
+                    }
+                ],
+                "date_info": {
+                    "bike_time_hours": null,
+                    "bike_time_mins": null,
+                    "date": "6/2/2016",
+                    "day": 2,
+                    "drive_time_hours": null,
+                    "drive_time_mins": null,
+                    "duration": "59 minutes",
+                    "duration_min": 59,
+                    "duration_ms": 3559000,
+                    "end_time": "4:38pm",
+                    "end_time_ms": 1464910705000,
+                    "end_transit": "TODO",
+                    "extended": true,
+                    "month": 6,
+                    "pretty_date": "Thursday, June 2, 2016",
+                    "start_time": "3:39pm",
+                    "start_time_ms": 1464907146000,
+                    "start_transit": "TODO",
+                    "text": "",
+                    "total_time_hours": null,
+                    "total_time_mins": 59.0,
+                    "transit_time_hours": null,
+                    "transit_time_mins": 52.0,
+                    "wait_time_hours": null,
+                    "wait_time_mins": null,
+                    "walk_time_hours": null,
+                    "walk_time_mins": 7.0,
+                    "year": 2016
+                },
+                "dominant_mode": "rail",
+                "fare": {
+                    "adult": "$2.50"
+                },
+                "has_alerts": true,
+                "itin_num": 3,
+                "legs": [
+                    {
+                        "alerts": null,
+                        "compass_direction": "southwest",
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "3 minutes",
+                            "duration_ms": 203000,
+                            "end_time": "3:42pm",
+                            "end_time_ms": 1464907349000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "3:39pm",
+                            "start_time_ms": 1464907146000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 751,
+                            "measure": "feet"
+                        },
+                        "distance_feet": 751.0494578276168,
+                        "distance_meters": 228.9784932401271,
+                        "elevation": {
+                            "distance": 228.97849324012714,
+                            "end_ft": "-15.3",
+                            "fall_ft": "-1.0",
+                            "grade": {
+                                "dd": 0.0,
+                                "de": -14.45867427866179,
+                                "down": 0,
+                                "ud": 0.0,
+                                "ue": -14.45867427866179,
+                                "up": 0
+                            },
+                            "high_ft": "-14.5",
+                            "low_ft": "-15.3",
+                            "points": "-14.46,-14.54,-14.52,-14.51,-14.51,-14.52,-14.55,-14.55,-14.56,-14.56,-14.63,-14.60,-14.52,-14.52,-14.51,-14.51,-14.82,-15.17,-15.17,-15.27",
+                            "points_array": [
+                                -14.46,
+                                -14.54,
+                                -14.52,
+                                -14.51,
+                                -14.51,
+                                -14.52,
+                                -14.55,
+                                -14.55,
+                                -14.56,
+                                -14.56,
+                                -14.63,
+                                -14.6,
+                                -14.52,
+                                -14.52,
+                                -14.51,
+                                -14.51,
+                                -14.82,
+                                -15.17,
+                                -15.17,
+                                -15.27
+                            ],
+                            "rise_ft": "0.2",
+                            "start_ft": "-14.5"
+                        },
+                        "from": {
+                            "lat": 45.588927600849516,
+                            "lon": -122.5928154509905,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.592815451,45.5889276008/extraparams/format_options=layout:start",
+                            "name": "PDX",
+                            "stop": null
+                        },
+                        "interline": null,
+                        "mode": "WALK",
+                        "route": null,
+                        "steps": [
+                            {
+                                "compass_direction": "southwest",
+                                "distance": {
+                                    "distance": 102,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 102.10287871753505,
+                                "distance_meters": 31.128926438272885,
+                                "lat": 45.588927600849516,
+                                "lon": -122.5928154509905,
+                                "name": "PDX",
+                                "relative_direction": null
+                            },
+                            {
+                                "compass_direction": "northwest",
+                                "distance": {
+                                    "distance": 172,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 172.16080707460674,
+                                "distance_meters": 52.4880509373801,
+                                "lat": 45.5886833,
+                                "lon": -122.5930108,
+                                "name": "footbridge",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": "southwest",
+                                "distance": {
+                                    "distance": 457,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 457.40087572543877,
+                                "distance_meters": 139.45148650165817,
+                                "lat": 45.5884448,
+                                "lon": -122.5934087,
+                                "name": "path",
+                                "relative_direction": "left"
+                            },
+                            {
+                                "compass_direction": "southeast",
+                                "distance": {
+                                    "distance": 19,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 19.384896310036357,
+                                "distance_meters": 5.910029362815963,
+                                "lat": 45.5876195,
+                                "lon": -122.593152,
+                                "name": "Portland Airport (path)",
+                                "relative_direction": "continue"
+                            }
+                        ],
+                        "to": {
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.5931,45.587584/extraparams/format_options=layout:end",
+                            "name": "Portland Int'l Airport MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10579",
+                                "info": "stop.html?stop_id=10579&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10579&month=6&day=2"
+                            }
+                        },
+                        "transfer": null
+                    },
+                    {
+                        "alerts": [
+                            {
+                                "future": true,
+                                "long_term": false,
+                                "route_id": "90",
+                                "start_date": 1465088400000,
+                                "start_date_pretty": "June 4",
+                                "start_time_pretty": "6:00 pm",
+                                "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                                "type": "ROUTE",
+                                "url": "http://trimet.org/#alerts/90"
+                            }
+                        ],
+                        "compass_direction": null,
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "52 minutes",
+                            "duration_ms": 3120000,
+                            "end_time": "4:34pm",
+                            "end_time_ms": 1464910470000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "3:42pm",
+                            "start_time_ms": 1464907350000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 13.3,
+                            "measure": "miles"
+                        },
+                        "distance_feet": 70329.66261800067,
+                        "distance_meters": 21441.970310366058,
+                        "elevation": null,
+                        "from": {
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.5931,45.587584/extraparams/format_options=layout:start",
+                            "name": "Portland Int'l Airport MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10579",
+                                "info": "stop.html?stop_id=10579&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10579&route=90&month=6&day=2"
+                            }
+                        },
+                        "interline": null,
+                        "mode": "TRAM",
+                        "route": {
+                            "agency_id": "TRIMET",
+                            "agency_name": "TriMet",
+                            "headsign": "City Center & Beaverton",
+                            "id": "90",
+                            "name": "MAX Red Line",
+                            "route_id_cleanup": "\\D.*",
+                            "schedulemap_url": "http://trimet.org/images/schedulemaps/090.gif",
+                            "trip": "6407136",
+                            "url": "http://trimet.org/schedules/r090.htm"
+                        },
+                        "steps": null,
+                        "to": {
+                            "lat": 45.510661,
+                            "lon": -122.717244,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.717244,45.510661/extraparams/format_options=layout:end",
+                            "name": "Washington Park MAX Station",
+                            "stop": {
+                                "agency": "TRIMET",
+                                "id": "10121",
+                                "info": "stop.html?stop_id=10121&month=6&day=2",
+                                "name": null,
+                                "schedule": "stop_schedule.html?stop_id=10121&route=90&month=6&day=2"
+                            }
+                        },
+                        "transfer": null
+                    },
+                    {
+                        "alerts": null,
+                        "compass_direction": "east",
+                        "date_info": {
+                            "date": "6/2/2016",
+                            "day": 2,
+                            "duration": "3 minutes",
+                            "duration_ms": 234000,
+                            "end_time": "4:38pm",
+                            "end_time_ms": 1464910705000,
+                            "month": 6,
+                            "pretty_date": "Thursday, June 2, 2016",
+                            "start_time": "4:34pm",
+                            "start_time_ms": 1464910471000,
+                            "year": 2016
+                        },
+                        "distance": {
+                            "distance": 440,
+                            "measure": "feet"
+                        },
+                        "distance_feet": 440.0965963609975,
+                        "distance_meters": 134.17579157347487,
+                        "elevation": {
+                            "distance": 134.17579157347487,
+                            "end_ft": "187.4",
+                            "fall_ft": "-2.0",
+                            "grade": {
+                                "dd": 0.0,
+                                "de": 189.4435680188684,
+                                "down": 0,
+                                "ud": 0.0,
+                                "ue": 189.4435680188684,
+                                "up": 0
+                            },
+                            "high_ft": "189.4",
+                            "low_ft": "187.4",
+                            "points": "189.44,189.39,189.39,189.28,189.28,188.97,188.97,188.77,188.77,188.02,188.02,187.86,187.86,187.65,187.65,187.43",
+                            "points_array": [
+                                189.44,
+                                189.39,
+                                189.39,
+                                189.28,
+                                189.28,
+                                188.97,
+                                188.97,
+                                188.77,
+                                188.77,
+                                188.02,
+                                188.02,
+                                187.86,
+                                187.86,
+                                187.65,
+                                187.65,
+                                187.43
+                            ],
+                            "rise_ft": "0.0",
+                            "start_ft": "189.4"
+                        },
+                        "from": {
+                            "lat": 45.510689399058094,
+                            "lon": -122.71724503733653,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.717245037,45.5106893991/extraparams/format_options=layout:start",
+                            "name": "Washington Park (path)",
+                            "stop": null
+                        },
+                        "interline": null,
+                        "mode": "WALK",
+                        "route": null,
+                        "steps": [
+                            {
+                                "compass_direction": "east",
+                                "distance": {
+                                    "distance": 227,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 227.02295683776845,
+                                "distance_meters": 69.21431610907575,
+                                "lat": 45.510689399058094,
+                                "lon": -122.71724503733653,
+                                "name": "Washington Park (path)",
+                                "relative_direction": null
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 34,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 34.44203500730746,
+                                "distance_meters": 10.500620429057154,
+                                "lat": 45.5107218,
+                                "lon": -122.716358,
+                                "name": "path",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 1,
+                                    "measure": "foot"
+                                },
+                                "distance_feet": 0.0,
+                                "distance_meters": 0.0,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "Elevator",
+                                "relative_direction": "right"
+                            },
+                            {
+                                "compass_direction": null,
+                                "distance": {
+                                    "distance": 1,
+                                    "measure": "foot"
+                                },
+                                "distance_feet": 0.0,
+                                "distance_meters": 0.0,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "default level",
+                                "relative_direction": "ELEVATOR"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 145,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 145.40229665278704,
+                                "distance_meters": 44.32996849170337,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "name": "path",
+                                "relative_direction": "continue"
+                            },
+                            {
+                                "compass_direction": "south",
+                                "distance": {
+                                    "distance": 33,
+                                    "measure": "feet"
+                                },
+                                "distance_feet": 33.229307863134615,
+                                "distance_meters": 10.130886543638603,
+                                "lat": 45.5104792,
+                                "lon": -122.7159693,
+                                "name": "Southwest Zoo Road",
+                                "relative_direction": "right"
+                            }
+                        ],
+                        "to": {
+                            "lat": 45.510242,
+                            "lon": -122.715904,
+                            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.715904,45.510242/extraparams/format_options=layout:end",
+                            "name": "Zoo",
+                            "stop": null
+                        },
+                        "transfer": null
+                    }
+                ],
+                "selected": false,
+                "transfers": 0,
+                "url": "planner.html?itin_num=3&from=PDX::45.58918,-122.59346&to=Zoo::45.510242,-122.715904&Hour=03&Minute=02&AmPm=pm&maxHours=6&month=6&day=2&year=2016&Walk=1260&Arr=None&min=QUICK&mode=TRANSIT,WALK"
+            }
+        ],
+        "max_walk": "1.4",
+        "params": {
+            "edit_trip": "from=PDX::45.58918,-122.59346&to=Zoo::45.510242,-122.715904&Hour=03&Minute=02&AmPm=pm&maxHours=6&month=6&day=2&year=2016&Walk=1260&Arr=None&min=QUICK&mode=TRANSIT,WALK",
+            "is_arrive_by": false,
+            "map_planner": "from=PDX::45.58918,-122.59346&to=Zoo::45.510242,-122.715904&time=03:02pm&maxHours=6&date=6/2/2016&mode=TRANSIT,WALK&optimize=QUICK&maxWalkDistance=1260&arriveBy=false",
+            "modes": "Transit",
+            "optimize": "QUICK",
+            "return_trip": "Hour=4&Minute=32&AmPm=pm&maxHours=6&from=Zoo::45.510242,-122.715904&to=PDX::45.58918,-122.59346&month=6&day=2&year=2016&Walk=1260&Arr=None&min=QUICK&mode=TRANSIT,WALK",
+            "walk": "3/4 mile"
+        },
+        "to": {
+            "lat": 45.510242,
+            "lon": -122.715904,
+            "map_img": "http://maps.trimet.org/eapi/ws/V1/mapimage/format/png/width/300/height/288/zoom/8/coord/-122.715904,45.510242/extraparams/format_options=layout:end",
+            "name": "Zoo",
+            "stop": null
+        }
+    }
+}
+No handlers could be found for logger "c:\dev_projects\ott\otp_client_py\ott\otp_client\trip_planner.py"

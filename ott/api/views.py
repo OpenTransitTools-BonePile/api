@@ -3,11 +3,11 @@ The following parameters are a part of the otp api, but are not being
 exposed in this wrapper to order to provide a simple interface, (!0.10)
 means that the parameter did not yet exist in otp v0.10:
 - alightSlack
-- batch
 - bannedAgencies
 - bannedStops (!0.10)
 - bannedStopsHard (!0.10)
 - bannedTrips
+- batch
 - bikeBoardCost (!0.10)
 - bikeSwitchCost (!0.10)
 - bikeSwitchTime (!0.10)
@@ -25,9 +25,9 @@ means that the parameter did not yet exist in otp v0.10:
 - preferredAgencies
 - preferredRoutes
 - reverseOptimizeOnTheFly
+- showIntermediateStops
 - startTransitStopId
 - startTransitTripId (!0.10)
-- showIntermediateStops
 - triangleSafetyFactor
 - triangleSlopeFactor
 - triangleTimeFactor
@@ -44,8 +44,8 @@ Pertinent OpenTripPlanner Docs/Code
   https://github.com/opentripplanner/OpenTripPlanner/blob/master/src/main/java/org/opentripplanner/api/common/RoutingResource.java
 - otp api code, TriMet release (~v0.10)
   https://github.com/opentripplanner/OpenTripPlanner/blob/3eda2fa511f8404422dcff02a8d018f65833cbdd/otp-rest-api/src/main/java/org/opentripplanner/api/common/RoutingResource.java
-- otp api docs for 0.15.0
-  http://dev.opentripplanner.org/apidoc/0.15.0/resource_PlannerResource.html
+- otp api docs for 0.20.0
+  http://dev.opentripplanner.org/apidoc/0.20.0/resource_PlannerResource.html
 """
 
 import sys
@@ -90,9 +90,11 @@ planner_args = {
     'bikeOptimize': fields.Str(
         default='safe',
         validate=validate.OneOf(['flat', 'greenways', 'quick', 'safe'])),
+    # need to convert to meters
     'bikeDistanceMax': fields.Float(
         default=3,
         validate=validate.Range(min=0.1)),
+    # need to convert to meters per second
     'bikeSpeed': fields.Float(
         default='~11 mph',
         validate=validate.Range(min=1, max=30)),
@@ -132,6 +134,7 @@ class TripPlan(Resource):
     @use_args(planner_args)
     def get(self, args):
         """returns a trip plan if valid parameters are supplied
+
         ---
         description: Get a trip plan
         responses:
@@ -173,9 +176,11 @@ class TripPlan(Resource):
 
         response_format = args.pop('responseFormat')
 
-        planner = TripPlanner(otp_url='http://maps.trimet.org/prod',
-                              solr='http://maps.trimet.org/solr')
-        plan = planner.plan_trip(args, True)
+        otp_url = 'http://maps.trimet.org/prod'
+        solr_url = 'http://maps.trimet.org/solr'
+        planner = TripPlanner(otp_url=otp_url, solr=solr_url)
+        plan = planner.plan_trip(args, pretty=True, jsonify=False)
+
         response = ResponseSchema().dump(plan)
 
         if response_format == 'XML':
@@ -183,7 +188,8 @@ class TripPlan(Resource):
 
         # app.logger.debug(args)
 
-        return jsonify(response)
+        print '"{}"'.format(response.errors)
+        return jsonify(response.data)
 
 
 @parser.error_handler
@@ -211,7 +217,8 @@ def handle_request_parsing_error(err):
 
 if __name__ == '__main__':
     # the value of sys.executable is used to restart the app when
-    # debugging, when using buildout it must be manually pointed to the
+    # debugging, but since buildout kind of uses system python the
+    # value of sys.executable must be manually pointed to the
     # executable buildout has created
     home = dirname(dirname(dirname(abspath(getsourcefile(lambda: 0)))))
     sys.executable = join(home, 'bin', 'python.exe')

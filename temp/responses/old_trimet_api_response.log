@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response xmlns="http://maps.trimet.org/maps/model/xml" success="true">
+  <date>6/2/2016</date>
+  <time>13:34:25</time>
+  <request>
+    <url>/maps/tpws/V1/tripplanner?fromPlace=pdx&amp;toPlace=zoo&amp;appID=1E642E0795074C45E19A57B41</url>
+    <param name="toPlace">zoo</param>
+    <param name="fromPlace">pdx</param>
+  </request>
+  <from>
+    <pos>
+      <x>7666295.0</x>
+      <y>707285.0</y>
+      <lat>45.587647</lat>
+      <lon>-122.593173</lon>
+    </pos>
+    <description>PDX (Portland)</description>
+  </from>
+  <to>
+    <pos>
+      <x>7634008.0</x>
+      <y>679716.0</y>
+      <lat>45.5097</lat>
+      <lon>-122.71629</lon>
+    </pos>
+    <description>ZOO (Portland)</description>
+  </to>
+  <itineraries count="3">
+    <itinerary id="1" viaRoute="MAX">
+      <time-distance>
+        <date>6/2/16</date>
+        <startTime>1:42 PM</startTime>
+        <endTime>2:34 PM</endTime>
+        <duration>55</duration>
+        <distance>13.450000000000001</distance>
+        <numberOfTransfers>0</numberOfTransfers>
+        <numberOfTripLegs>2</numberOfTripLegs>
+        <walkingTime>3</walkingTime>
+        <transitTime>52</transitTime>
+      </time-distance>
+      <fare>
+        <regular>2.50</regular>
+        <special id="honored">1.25</special>
+        <special id="youth">1.25</special>
+      </fare>
+      <leg xmlns:ns="http://maps.trimet.org/maps/model/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" order="start" mode="Light Rail" xsi:type="ns:TransitLegType" id="1.1">
+        <time-distance>
+          <date>6/2/16</date>
+          <startTime>1:42 PM</startTime>
+          <endTime>2:34 PM</endTime>
+          <duration>52</duration>
+          <distance>13.32</distance>
+        </time-distance>
+        <lineURL param="9048,A,1:42 PM,10579,2:34 PM,10121">
+          <url>/transweb/ws/V1/BlockGeoWS/appID/1E642E0795074C45E19A57B41/bksTsIDeTeID/9048,A,1:42 PM,10579,2:34 PM,10121</url>
+        </lineURL>
+        <from xsi:type="ns:StopPointType">
+          <pos>
+            <x>7666313.0</x>
+            <y>707262.0</y>
+            <lat>45.587584</lat>
+            <lon>-122.5931</lon>
+          </pos>
+          <description>Portland Int'l Airport MAX Station</description>
+          <stopId>10579</stopId>
+          <stopSequence>0</stopSequence>
+        </from>
+        <to xsi:type="ns:StopPointType">
+          <pos>
+            <x>7633773.0</x>
+            <y>680073.0</y>
+            <lat>45.510661</lat>
+            <lon>-122.717244</lon>
+          </pos>
+          <description>Washington Park MAX Station</description>
+          <stopId>10121</stopId>
+          <stopSequence>22</stopSequence>
+        </to>
+        <route>
+          <number>MAX</number>
+          <internalNumber>90</internalNumber>
+          <name>MAX  Red Line to City Center &amp; Beaverton</name>
+          <key>A</key>
+          <direction>north</direction>
+          <block>9048</block>
+          <alert>
+            <description>On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.</description>
+            <begin>1465088400000</begin>
+            <end>1465110060000</end>
+            <status>Detour</status>
+          </alert>
+        </route>
+      </leg>
+      <leg xmlns:ns="http://maps.trimet.org/maps/model/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns:WalkingLegType" id="1.2" order="end" mode="Walk">
+        <time-distance>
+          <duration>3</duration>
+          <distance>0.13</distance>
+        </time-distance>
+        <from xsi:type="ns:StopPointType">
+          <pos>
+            <x>7633773.0</x>
+            <y>680073.0</y>
+            <lat>45.510661</lat>
+            <lon>-122.717244</lon>
+          </pos>
+          <description>Washington Park MAX Station</description>
+          <stopId>10121</stopId>
+          <stopSequence>22</stopSequence>
+        </from>
+        <to>
+          <pos>
+            <x>7634008.0</x>
+            <y>679716.0</y>
+            <lat>45.5097</lat>
+            <lon>-122.71629</lon>
+          </pos>
+          <description>ZOO (Portland)</description>
+        </to>
+        <direction>east</direction>
+      </leg>
+    </itinerary>
+    <itinerary id="2" viaRoute="MAX">
+      <time-distance>
+        <date>6/2/16</date>
+        <startTime>1:57 PM</startTime>
+        <endTime>2:49 PM</endTime>
+        <duration>55</duration>
+        <distance>13.450000000000001</distance>
+        <numberOfTransfers>0</numberOfTransfers>
+        <numberOfTripLegs>2</numberOfTripLegs>
+        <walkingTime>3</walkingTime>
+        <transitTime>52</transitTime>
+      </time-distance>
+      <fare>
+        <regular>2.50</regular>
+        <special id="honored">1.25</special>
+        <special id="youth">1.25</special>
+      </fare>
+      <leg xmlns:ns="http://maps.trimet.org/maps/model/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" order="start" mode="Light Rail" xsi:type="ns:TransitLegType" id="2.1">
+        <time-distance>
+          <date>6/2/16</date>
+          <startTime>1:57 PM</startTime>
+          <endTime>2:49 PM</endTime>
+          <duration>52</duration>
+          <distance>13.32</distance>
+        </time-distance>
+        <lineURL param="9044,A,1:57 PM,10579,2:49 PM,10121">
+          <url>/transweb/ws/V1/BlockGeoWS/appID/1E642E0795074C45E19A57B41/bksTsIDeTeID/9044,A,1:57 PM,10579,2:49 PM,10121</url>
+        </lineURL>
+        <from xsi:type="ns:StopPointType">
+          <pos>
+            <x>7666313.0</x>
+            <y>707262.0</y>
+            <lat>45.587584</lat>
+            <lon>-122.5931</lon>
+          </pos>
+          <description>Portland Int'l Airport MAX Station</description>
+          <stopId>10579</stopId>
+          <stopSequence>0</stopSequence>
+        </from>
+        <to xsi:type="ns:StopPointType">
+          <pos>
+            <x>7633773.0</x>
+            <y>680073.0</y>
+            <lat>45.510661</lat>
+            <lon>-122.717244</lon>
+          </pos>
+          <description>Washington Park MAX Station</description>
+          <stopId>10121</stopId>
+          <stopSequence>22</stopSequence>
+        </to>
+        <route>
+          <number>MAX</number>
+          <internalNumber>90</internalNumber>
+          <name>MAX  Red Line to City Center &amp; Beaverton</name>
+          <key>A</key>
+          <direction>north</direction>
+          <block>9044</block>
+          <alert>
+            <description>On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.</description>
+            <begin>1465088400000</begin>
+            <end>1465110060000</end>
+            <status>Detour</status>
+          </alert>
+        </route>
+      </leg>
+      <leg xmlns:ns="http://maps.trimet.org/maps/model/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns:WalkingLegType" id="2.2" order="end" mode="Walk">
+        <time-distance>
+          <duration>3</duration>
+          <distance>0.13</distance>
+        </time-distance>
+        <from xsi:type="ns:StopPointType">
+          <pos>
+            <x>7633773.0</x>
+            <y>680073.0</y>
+            <lat>45.510661</lat>
+            <lon>-122.717244</lon>
+          </pos>
+          <description>Washington Park MAX Station</description>
+          <stopId>10121</stopId>
+          <stopSequence>22</stopSequence>
+        </from>
+        <to>
+          <pos>
+            <x>7634008.0</x>
+            <y>679716.0</y>
+            <lat>45.5097</lat>
+            <lon>-122.71629</lon>
+          </pos>
+          <description>ZOO (Portland)</description>
+        </to>
+        <direction>east</direction>
+      </leg>
+    </itinerary>
+    <itinerary id="3" viaRoute="MAX">
+      <time-distance>
+        <date>6/2/16</date>
+        <startTime>2:12 PM</startTime>
+        <endTime>3:04 PM</endTime>
+        <duration>55</duration>
+        <distance>13.450000000000001</distance>
+        <numberOfTransfers>0</numberOfTransfers>
+        <numberOfTripLegs>2</numberOfTripLegs>
+        <walkingTime>3</walkingTime>
+        <transitTime>52</transitTime>
+      </time-distance>
+      <fare>
+        <regular>2.50</regular>
+        <special id="honored">1.25</special>
+        <special id="youth">1.25</special>
+      </fare>
+      <leg xmlns:ns="http://maps.trimet.org/maps/model/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" order="start" mode="Light Rail" xsi:type="ns:TransitLegType" id="3.1">
+        <time-distance>
+          <date>6/2/16</date>
+          <startTime>2:12 PM</startTime>
+          <endTime>3:04 PM</endTime>
+          <duration>52</duration>
+          <distance>13.32</distance>
+        </time-distance>
+        <lineURL param="9045,A,2:12 PM,10579,3:04 PM,10121">
+          <url>/transweb/ws/V1/BlockGeoWS/appID/1E642E0795074C45E19A57B41/bksTsIDeTeID/9045,A,2:12 PM,10579,3:04 PM,10121</url>
+        </lineURL>
+        <from xsi:type="ns:StopPointType">
+          <pos>
+            <x>7666313.0</x>
+            <y>707262.0</y>
+            <lat>45.587584</lat>
+            <lon>-122.5931</lon>
+          </pos>
+          <description>Portland Int'l Airport MAX Station</description>
+          <stopId>10579</stopId>
+          <stopSequence>0</stopSequence>
+        </from>
+        <to xsi:type="ns:StopPointType">
+          <pos>
+            <x>7633773.0</x>
+            <y>680073.0</y>
+            <lat>45.510661</lat>
+            <lon>-122.717244</lon>
+          </pos>
+          <description>Washington Park MAX Station</description>
+          <stopId>10121</stopId>
+          <stopSequence>22</stopSequence>
+        </to>
+        <route>
+          <number>MAX</number>
+          <internalNumber>90</internalNumber>
+          <name>MAX  Red Line to City Center &amp; Beaverton</name>
+          <key>A</key>
+          <direction>north</direction>
+          <block>9045</block>
+          <alert>
+            <description>On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.</description>
+            <begin>1465088400000</begin>
+            <end>1465110060000</end>
+            <status>Detour</status>
+          </alert>
+        </route>
+      </leg>
+      <leg xmlns:ns="http://maps.trimet.org/maps/model/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns:WalkingLegType" id="3.2" order="end" mode="Walk">
+        <time-distance>
+          <duration>3</duration>
+          <distance>0.13</distance>
+        </time-distance>
+        <from xsi:type="ns:StopPointType">
+          <pos>
+            <x>7633773.0</x>
+            <y>680073.0</y>
+            <lat>45.510661</lat>
+            <lon>-122.717244</lon>
+          </pos>
+          <description>Washington Park MAX Station</description>
+          <stopId>10121</stopId>
+          <stopSequence>22</stopSequence>
+        </from>
+        <to>
+          <pos>
+            <x>7634008.0</x>
+            <y>679716.0</y>
+            <lat>45.5097</lat>
+            <lon>-122.71629</lon>
+          </pos>
+          <description>ZOO (Portland)</description>
+        </to>
+        <direction>east</direction>
+      </leg>
+    </itinerary>
+  </itineraries>
+</response>

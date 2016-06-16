@@ -1,0 +1,1640 @@
+{
+    "error": null,
+    "plan": {
+        "date": 1464892260000,
+        "from": {
+            "arrival": null,
+            "departure": null,
+            "lat": 45.588927600849516,
+            "lon": -122.5928154509905,
+            "name": "PDX",
+            "orig": null,
+            "stopCode": null,
+            "stopId": null,
+            "stopIndex": null,
+            "zoneId": null
+        },
+        "itineraries": [
+            {
+                "duration": 3529000,
+                "elevationGained": 2.972106909398571,
+                "elevationLost": 204.85863780121824,
+                "endTime": 1464896275000,
+                "fare": {
+                    "fare": {
+                        "regular": {
+                            "cents": 250,
+                            "currency": {
+                                "currency": "USD",
+                                "currencyCode": "USD",
+                                "defaultFractionDigits": 2,
+                                "symbol": "$"
+                            }
+                        }
+                    }
+                },
+                "legs": [
+                    {
+                        "agencyId": null,
+                        "agencyName": null,
+                        "agencyTimeZoneOffset": -25200000,
+                        "agencyUrl": null,
+                        "alerts": null,
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 228.9784932401271,
+                        "duration": 203000,
+                        "endTime": 1464892949000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.588927600849516,
+                            "lon": -122.5928154509905,
+                            "name": "PDX",
+                            "orig": "PDX",
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "headsign": null,
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": null,
+                        "legGeometry": {
+                            "length": 13,
+                            "levels": null,
+                            "points": "waguGb|fkVn@f@GVz@l@CFELd@\\t@SBAf@_@@C`@c@FI"
+                        },
+                        "mode": "WALK",
+                        "notes": null,
+                        "rentedBike": null,
+                        "route": "",
+                        "routeColor": null,
+                        "routeId": null,
+                        "routeLongName": null,
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": null,
+                        "startTime": 1464892746000,
+                        "steps": [
+                            {
+                                "absoluteDirection": "SOUTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 31.128926438272885,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.588927600849516,
+                                "lon": -122.5928154509905,
+                                "relativeDirection": null,
+                                "stayOn": false,
+                                "streetName": "PDX"
+                            },
+                            {
+                                "absoluteDirection": "NORTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 52.4880509373801,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5886833,
+                                "lon": -122.5930108,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "footbridge"
+                            },
+                            {
+                                "absoluteDirection": "SOUTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 139.45148650165817,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": -14.45867427866179
+                                    },
+                                    {
+                                        "first": 10.0,
+                                        "second": -14.535506392946404
+                                    },
+                                    {
+                                        "first": 20.0,
+                                        "second": -14.515084979138358
+                                    },
+                                    {
+                                        "first": 30.0,
+                                        "second": -14.51003334971756
+                                    },
+                                    {
+                                        "first": 40.0,
+                                        "second": -14.509392696381436
+                                    },
+                                    {
+                                        "first": 50.0,
+                                        "second": -14.519892729396034
+                                    },
+                                    {
+                                        "first": 61.06129201986156,
+                                        "second": -14.545506565227994
+                                    },
+                                    {
+                                        "first": 61.06129201986156,
+                                        "second": -14.545506565227994
+                                    },
+                                    {
+                                        "first": 62.79982612255992,
+                                        "second": -14.564635689681253
+                                    },
+                                    {
+                                        "first": 62.79982612255992,
+                                        "second": -14.564635689681255
+                                    },
+                                    {
+                                        "first": 72.79982612255992,
+                                        "second": -14.630729586436784
+                                    },
+                                    {
+                                        "first": 82.79982612255992,
+                                        "second": -14.59967516853705
+                                    },
+                                    {
+                                        "first": 88.48282104762654,
+                                        "second": -14.52364116005515
+                                    },
+                                    {
+                                        "first": 114.16581597269318,
+                                        "second": -14.52364116005515
+                                    },
+                                    {
+                                        "first": 116.01153490332027,
+                                        "second": -14.509053541051138
+                                    },
+                                    {
+                                        "first": 116.01153490332027,
+                                        "second": -14.509053541051138
+                                    },
+                                    {
+                                        "first": 126.01153490332027,
+                                        "second": -14.815524457019908
+                                    },
+                                    {
+                                        "first": 139.45148650165817,
+                                        "second": -15.168188510553023
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5884448,
+                                "lon": -122.5934087,
+                                "relativeDirection": "LEFT",
+                                "stayOn": true,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTHEAST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 5.910029362815963,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": -15.168188095092773
+                                    },
+                                    {
+                                        "first": 5.910029411315918,
+                                        "second": -15.267279624938965
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5876195,
+                                "lon": -122.593152,
+                                "relativeDirection": "CONTINUE",
+                                "stayOn": false,
+                                "streetName": "Portland Airport (path)"
+                            }
+                        ],
+                        "to": {
+                            "arrival": 1464892950000,
+                            "departure": 1464892950000,
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "name": "Portland Int'l Airport MAX Station",
+                            "orig": null,
+                            "stopCode": "10579",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10579"
+                            },
+                            "stopIndex": null,
+                            "zoneId": "R"
+                        },
+                        "tripBlockId": null,
+                        "tripId": null,
+                        "tripShortName": null
+                    },
+                    {
+                        "agencyId": "TRIMET",
+                        "agencyName": "TriMet",
+                        "agencyTimeZoneOffset": 0,
+                        "agencyUrl": "http://trimet.org/",
+                        "alerts": [
+                            {
+                                "alertDescriptionText": {
+                                    "someTranslation": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                                    "translations": {
+                                        "": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules."
+                                    }
+                                },
+                                "alertHeaderText": {
+                                    "someTranslation": null,
+                                    "translations": {}
+                                },
+                                "alertUrl": {
+                                    "someTranslation": "http://trimet.org/alerts/",
+                                    "translations": {
+                                        "": "http://trimet.org/alerts/"
+                                    }
+                                },
+                                "effectiveStartDate": 1465088400000
+                            }
+                        ],
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 21441.970310366058,
+                        "duration": 3090000,
+                        "endTime": 1464896040000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "name": "Portland Int'l Airport MAX Station",
+                            "orig": null,
+                            "stopCode": "10579",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10579"
+                            },
+                            "stopIndex": 0,
+                            "zoneId": "R"
+                        },
+                        "headsign": "City Center & Beaverton",
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "length": 1187,
+                            "levels": null,
+                            "points": "oyfuGr}fkVdAcAXUd@g@POLMFEHEFERMRMb@WPMLKLMLOJOFIFMDIFMFMDKDO`@uAb@{AbAmDvA_FPo@FWFWBQBOBQBK@QBUB]@Q@]@O?Q?Q?Q?O?QAUCe@AOAQCUCSEUEWEQCMKc@a@yAGWEOEOCMCMCMCOAKAMCOAO?QAO?O@O?O@O@QBOD]BIBMBMDSDOZiAT{@HYJ_@p@aC~@eDp@oBPi@H[JYJ[p@_C^uALa@Tq@Na@X}@L_@J_@l@uBlAgEb@wAVaAJ[Ja@T}@Ha@Pk@Ps@J[FSFWNi@x@wCz@yCt@eC|@_DJ[DMFOBKN_@FMFMN[FKR]HMHMHKFGHMJMLMHIJIJKPMHGFGTMNKLGJEXMRGFCTG\\KzAYRCREf@K^GRE\\G\\G^Gr@M^K^KZKNILGLINININMVSLMJKHKJKJMLOLQJOHMFMR_@FMFMJWFQFKHWBKL_@xAcFj@qBHYFWBODMBKBMBO@M@KBO@O@M@O?M@O?O?Q?SAa@AYCe@KwCAWAYAS?M?O?W?K@K@M@M@ODSBMBMBOBKJ]DQt@gCLc@DOHWDOHSBIDILUHOHKHKHIJIHEJIJELELEJCLAJAN?RAV?tMBpD@tC@\\?J?J?J@H?PBL@LBHBJBJDHBNHLFJJNJJJTVX^v@hAv@jAnBrCvB|CPT`@l@hF`IjAfBfA~AfDzEvApBlAfBfA~ATZTZX\\TVVVPPNL\\^XRTPTL\\T^P`@P^NVHd@Ld@LVDRBRBRBTBT@T@P?P@b@AV?XCZATCTEZEXEZGRGTGRGRGb@ONIPGRINIPKPITOTMTQTOXUVUVSTUTWTWJK^e@NSPWb@q@z@uAz@uAq@v@v@oA^m@\\k@^k@r@kAT_@Va@T]T[RYJKLOHIHINQNONOPORQVQTOROLILGVOXMXMTITITITGNEPCNEPCPC^GXCVANA\\AN?L?N?\\?P@`@BN@LBL@NBTBHBJBVFXFZJr@Tb@NhA\\jEvA^N^J^LLB`@JB?HBJ@N@N@pA?f@Cf@Af@CnAKf@CTAR?R?R?P@P@F@F@L@LBLBLBLBZHjBh@jA\\fBf@fBf@`Bd@rCv@xAb@bA\\fA\\l@Px@VNDZJb@JTFl@JjARrGdAh@Hf@FZDVB^D~@Hz@DbADv@@t@@r@ArAAhDEJCFENOFM@KBSAYCQOWKIa@Sg@MYKYOSIUGECEAD?J@PBRDdAV`@J`@Jz@HmCq@aB_@EA_@IWCSAe@Ba@JgAXi@Nc@La@Jm@PWJSNORO^I^Ih@G`@G`@G\\E^E\\EXCXARCZAVARAVAVAR?\\?V?d@?\\@X@X@V@T@`@Ft@H|@Dl@N|AJ|AHjA@f@B^B|@@b@?b@@r@?b@A`@?b@A^A^An@Cp@En@C^A\\C\\KhAGf@E\\EZKx@G^Q`AG^Kf@Mh@Kf@Mf@[nAMf@w@zCSt@{@pDEPUz@e@fBo@`CYbAIZQp@mBrHkAzEYfAGZIZMp@Kt@EXEVCNGn@Gl@C`@CVATAXARCt@A\\AR?\\?\\?p@?`@B~@@T@d@@R@NB\\Bb@D^BZBVD\\BTDRBVF\\DRBRFVDTJb@J`@FTJb@N`@Nf@HTL\\Rf@rB~E|AtDlAvCrMh[h@nAvDfJx@nBx@bBnAvCVn@LXVn@JVHR?@FPHTJXJ^FXHXDRFTJd@F\\FZJj@DVDXJt@D^BVDXBZBZBZB`@Bd@@b@Bd@@b@@p@?p@?b@?b@Ab@A`@AZAZCf@Cb@E`@CZEXCXG\\EVEVETETETGRMh@IZIVKXIXO`@Q^O^S^Yh@Yf@i@~@eAbBwC~Ek@|@iAlB{@xAQXMTOVMVS`@GNGNMXGPKXITGTIVGTGREPGZI\\Gb@Y|AIh@c@zCe@|Cy@zFU~ASrAGf@Gb@EVOlA_@tCu@pFqCbSCPAPCXAXALAPAN?P?VAP@`@?R?N@NB^@L@N@L@PBTBLBL@LH`@FXHZDLDPFPBHNZFNFLHPJPNTNTNPTVRRTRbAz@n@f@fBvAXTXTXVVVPPNRNPNRRXP\\HPHPHPTj@HZHTFXDRH^DZDVDZD\\B`@B`@B^@f@@h@DbCN~GRbL\\jTF|CF|CF|CLvH@f@?f@@^?f@A\\?R?^ElB?ZC|@?h@An@Ax@?dB?bAAl@?Z?d@?p@?xA@tC?T?X?D@X?d@?f@?r@?xB?xA?^?d@?~@CdB?vA?h@?f@@\\?D?X?nD?zD?JAX@vC?X?Z?lC?ZAzD?R?`@ATAV?b@?HCx@?R?ZAbC?X?L?H?J@H?FBH@FBFJVJPPZHLHJBDFFDFFDFDDDDBLHVFND`@LVHXJJDJFHDJHHFHJNNDFFHHLHLHPFRVr@lEdMN`@HVDJFLNPFJDFBDDDFFJJLLHFFDHDRJJBFBFBD@JBH@N@J@tAAN?H?F?lAAZAH?J?lCEJ?NAz@GXApA@B?LA\\?RCB?JC`@ID?D?F?B?F?F@HBJBZPVJbCfAbBt@^TnB|@BBPFNDNFt@TZLpBz@p@ZrAj@HFFFDJBJ@J?HAD?HCHAN[`BCNGd@Ov@QbAGb@GXi@|CEREXShAO|@ETCJAJCLm@hDCJCJAJg@rCCNEPEVm@jDCPKh@G`@CNYzAMx@I`@AHI`@e@pCEVA@?BCNENe@lCEVo@tDEPE\\k@zCEVETi@|CCLCRi@zCCNG\\g@rCCLAHAD?D?H?H?H@HLlAJhA@J@F@D@D@DDHBDDFBBD@LFJD~An@JFJFJFpAx@ZT?@TPPPPNh@b@`@TZNFDLDpB~@JDbBt@FDFFDFBBDFFT@L@LAJCZIb@QbAOz@G\\EREXOj@W`AKb@Mr@c@jCObAO`AI|@Iv@APUzCGv@Ep@?d@?ZBZHp@Nj@JZJRLPRRLNRNRJLHHDj@Rd@P\\NjCpApCpAtBdATPHFFHV\\lCtDDH~AbEHRdA~DdAtDz@tC`CzH|@lDxCjLd@vB\\xAF\\D\\`@pEJtAHnALzCDzCFxD"
+                        },
+                        "mode": "TRAM",
+                        "notes": [
+                            {
+                                "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules."
+                            }
+                        ],
+                        "rentedBike": null,
+                        "route": "MAX Red Line",
+                        "routeColor": null,
+                        "routeId": "90",
+                        "routeLongName": "MAX Red Line",
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": 0,
+                        "startTime": 1464892950000,
+                        "steps": null,
+                        "to": {
+                            "arrival": 1464896040000,
+                            "departure": 1464896040000,
+                            "lat": 45.510661,
+                            "lon": -122.717244,
+                            "name": "Washington Park MAX Station",
+                            "orig": null,
+                            "stopCode": "10121",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10121"
+                            },
+                            "stopIndex": 22,
+                            "zoneId": "R"
+                        },
+                        "tripBlockId": "9045",
+                        "tripId": "6406896",
+                        "tripShortName": null
+                    },
+                    {
+                        "agencyId": null,
+                        "agencyName": null,
+                        "agencyTimeZoneOffset": -25200000,
+                        "agencyUrl": null,
+                        "alerts": null,
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 134.17579157347487,
+                        "duration": 234000,
+                        "endTime": 1464896275000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.510689399058094,
+                            "lon": -122.71724503733653,
+                            "name": "Washington Park (path)",
+                            "orig": null,
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "headsign": null,
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": null,
+                        "legGeometry": {
+                            "length": 14,
+                            "levels": null,
+                            "points": "wxwtGxe_lVGqDF??O????HAJ@JBBa@@G@WH@DD"
+                        },
+                        "mode": "WALK",
+                        "notes": null,
+                        "rentedBike": null,
+                        "route": "",
+                        "routeColor": null,
+                        "routeId": null,
+                        "routeLongName": null,
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": null,
+                        "startTime": 1464896041000,
+                        "steps": [
+                            {
+                                "absoluteDirection": "EAST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 69.21431610907575,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.510689399058094,
+                                "lon": -122.71724503733653,
+                                "relativeDirection": null,
+                                "stayOn": false,
+                                "streetName": "Washington Park (path)"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 10.500620429057154,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 189.4435680188684
+                                    },
+                                    {
+                                        "first": 4.186624947801199,
+                                        "second": 189.3933882845253
+                                    },
+                                    {
+                                        "first": 4.186624947801199,
+                                        "second": 189.3933882845253
+                                    },
+                                    {
+                                        "first": 10.500620429057154,
+                                        "second": 189.28071924294605
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5107218,
+                                "lon": -122.716358,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 0.0,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": true,
+                                "streetName": "Elevator"
+                            },
+                            {
+                                "absoluteDirection": null,
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 0.0,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "ELEVATOR",
+                                "stayOn": false,
+                                "streetName": "default level"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 44.32996849170337,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 189.28071924294602
+                                    },
+                                    {
+                                        "first": 12.178892058263305,
+                                        "second": 188.97364578677514
+                                    },
+                                    {
+                                        "first": 12.178892058263305,
+                                        "second": 188.97364578677514
+                                    },
+                                    {
+                                        "first": 18.86406412979962,
+                                        "second": 188.770711311306
+                                    },
+                                    {
+                                        "first": 18.86406412979962,
+                                        "second": 188.770711311306
+                                    },
+                                    {
+                                        "first": 31.882810970591553,
+                                        "second": 188.0174810718956
+                                    },
+                                    {
+                                        "first": 31.882810970591553,
+                                        "second": 188.0174810718956
+                                    },
+                                    {
+                                        "first": 35.48703314228264,
+                                        "second": 187.86320633936862
+                                    },
+                                    {
+                                        "first": 35.48703314228264,
+                                        "second": 187.86320633936862
+                                    },
+                                    {
+                                        "first": 44.32996849170337,
+                                        "second": 187.64595871858683
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "CONTINUE",
+                                "stayOn": false,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 10.130886543638603,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 187.64595871858683
+                                    },
+                                    {
+                                        "first": 10.130886543638603,
+                                        "second": 187.42785661315787
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5104792,
+                                "lon": -122.7159693,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "Southwest Zoo Road"
+                            }
+                        ],
+                        "to": {
+                            "arrival": 1464896275000,
+                            "departure": 1464896275000,
+                            "lat": 45.510242,
+                            "lon": -122.715904,
+                            "name": "Zoo",
+                            "orig": "Zoo",
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "tripBlockId": null,
+                        "tripId": null,
+                        "tripShortName": null
+                    }
+                ],
+                "startTime": 1464892746000,
+                "tooSloped": false,
+                "transfers": 0,
+                "transitTime": 3090,
+                "waitingTime": 2,
+                "walkDistance": 363.4967660055586,
+                "walkTime": 437
+            },
+            {
+                "duration": 3529000,
+                "elevationGained": 2.972106909398571,
+                "elevationLost": 204.85863780121824,
+                "endTime": 1464897175000,
+                "fare": {
+                    "fare": {
+                        "regular": {
+                            "cents": 250,
+                            "currency": {
+                                "currency": "USD",
+                                "currencyCode": "USD",
+                                "defaultFractionDigits": 2,
+                                "symbol": "$"
+                            }
+                        }
+                    }
+                },
+                "legs": [
+                    {
+                        "agencyId": null,
+                        "agencyName": null,
+                        "agencyTimeZoneOffset": -25200000,
+                        "agencyUrl": null,
+                        "alerts": null,
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 228.9784932401271,
+                        "duration": 203000,
+                        "endTime": 1464893849000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.588927600849516,
+                            "lon": -122.5928154509905,
+                            "name": "PDX",
+                            "orig": "PDX",
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "headsign": null,
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": null,
+                        "legGeometry": {
+                            "length": 13,
+                            "levels": null,
+                            "points": "waguGb|fkVn@f@GVz@l@CFELd@\\t@SBAf@_@@C`@c@FI"
+                        },
+                        "mode": "WALK",
+                        "notes": null,
+                        "rentedBike": null,
+                        "route": "",
+                        "routeColor": null,
+                        "routeId": null,
+                        "routeLongName": null,
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": null,
+                        "startTime": 1464893646000,
+                        "steps": [
+                            {
+                                "absoluteDirection": "SOUTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 31.128926438272885,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.588927600849516,
+                                "lon": -122.5928154509905,
+                                "relativeDirection": null,
+                                "stayOn": false,
+                                "streetName": "PDX"
+                            },
+                            {
+                                "absoluteDirection": "NORTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 52.4880509373801,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5886833,
+                                "lon": -122.5930108,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "footbridge"
+                            },
+                            {
+                                "absoluteDirection": "SOUTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 139.45148650165817,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": -14.45867427866179
+                                    },
+                                    {
+                                        "first": 10.0,
+                                        "second": -14.535506392946404
+                                    },
+                                    {
+                                        "first": 20.0,
+                                        "second": -14.515084979138358
+                                    },
+                                    {
+                                        "first": 30.0,
+                                        "second": -14.51003334971756
+                                    },
+                                    {
+                                        "first": 40.0,
+                                        "second": -14.509392696381436
+                                    },
+                                    {
+                                        "first": 50.0,
+                                        "second": -14.519892729396034
+                                    },
+                                    {
+                                        "first": 61.06129201986156,
+                                        "second": -14.545506565227994
+                                    },
+                                    {
+                                        "first": 61.06129201986156,
+                                        "second": -14.545506565227994
+                                    },
+                                    {
+                                        "first": 62.79982612255992,
+                                        "second": -14.564635689681253
+                                    },
+                                    {
+                                        "first": 62.79982612255992,
+                                        "second": -14.564635689681255
+                                    },
+                                    {
+                                        "first": 72.79982612255992,
+                                        "second": -14.630729586436784
+                                    },
+                                    {
+                                        "first": 82.79982612255992,
+                                        "second": -14.59967516853705
+                                    },
+                                    {
+                                        "first": 88.48282104762654,
+                                        "second": -14.52364116005515
+                                    },
+                                    {
+                                        "first": 114.16581597269318,
+                                        "second": -14.52364116005515
+                                    },
+                                    {
+                                        "first": 116.01153490332027,
+                                        "second": -14.509053541051138
+                                    },
+                                    {
+                                        "first": 116.01153490332027,
+                                        "second": -14.509053541051138
+                                    },
+                                    {
+                                        "first": 126.01153490332027,
+                                        "second": -14.815524457019908
+                                    },
+                                    {
+                                        "first": 139.45148650165817,
+                                        "second": -15.168188510553023
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5884448,
+                                "lon": -122.5934087,
+                                "relativeDirection": "LEFT",
+                                "stayOn": true,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTHEAST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 5.910029362815963,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": -15.168188095092773
+                                    },
+                                    {
+                                        "first": 5.910029411315918,
+                                        "second": -15.267279624938965
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5876195,
+                                "lon": -122.593152,
+                                "relativeDirection": "CONTINUE",
+                                "stayOn": false,
+                                "streetName": "Portland Airport (path)"
+                            }
+                        ],
+                        "to": {
+                            "arrival": 1464893850000,
+                            "departure": 1464893850000,
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "name": "Portland Int'l Airport MAX Station",
+                            "orig": null,
+                            "stopCode": "10579",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10579"
+                            },
+                            "stopIndex": null,
+                            "zoneId": "R"
+                        },
+                        "tripBlockId": null,
+                        "tripId": null,
+                        "tripShortName": null
+                    },
+                    {
+                        "agencyId": "TRIMET",
+                        "agencyName": "TriMet",
+                        "agencyTimeZoneOffset": 0,
+                        "agencyUrl": "http://trimet.org/",
+                        "alerts": [
+                            {
+                                "alertDescriptionText": {
+                                    "someTranslation": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                                    "translations": {
+                                        "": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules."
+                                    }
+                                },
+                                "alertHeaderText": {
+                                    "someTranslation": null,
+                                    "translations": {}
+                                },
+                                "alertUrl": {
+                                    "someTranslation": "http://trimet.org/alerts/",
+                                    "translations": {
+                                        "": "http://trimet.org/alerts/"
+                                    }
+                                },
+                                "effectiveStartDate": 1465088400000
+                            }
+                        ],
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 21441.970310366058,
+                        "duration": 3090000,
+                        "endTime": 1464896940000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "name": "Portland Int'l Airport MAX Station",
+                            "orig": null,
+                            "stopCode": "10579",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10579"
+                            },
+                            "stopIndex": 0,
+                            "zoneId": "R"
+                        },
+                        "headsign": "City Center & Beaverton",
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "length": 1187,
+                            "levels": null,
+                            "points": "oyfuGr}fkVdAcAXUd@g@POLMFEHEFERMRMb@WPMLKLMLOJOFIFMDIFMFMDKDO`@uAb@{AbAmDvA_FPo@FWFWBQBOBQBK@QBUB]@Q@]@O?Q?Q?Q?O?QAUCe@AOAQCUCSEUEWEQCMKc@a@yAGWEOEOCMCMCMCOAKAMCOAO?QAO?O@O?O@O@QBOD]BIBMBMDSDOZiAT{@HYJ_@p@aC~@eDp@oBPi@H[JYJ[p@_C^uALa@Tq@Na@X}@L_@J_@l@uBlAgEb@wAVaAJ[Ja@T}@Ha@Pk@Ps@J[FSFWNi@x@wCz@yCt@eC|@_DJ[DMFOBKN_@FMFMN[FKR]HMHMHKFGHMJMLMHIJIJKPMHGFGTMNKLGJEXMRGFCTG\\KzAYRCREf@K^GRE\\G\\G^Gr@M^K^KZKNILGLINININMVSLMJKHKJKJMLOLQJOHMFMR_@FMFMJWFQFKHWBKL_@xAcFj@qBHYFWBODMBKBMBO@M@KBO@O@M@O?M@O?O?Q?SAa@AYCe@KwCAWAYAS?M?O?W?K@K@M@M@ODSBMBMBOBKJ]DQt@gCLc@DOHWDOHSBIDILUHOHKHKHIJIHEJIJELELEJCLAJAN?RAV?tMBpD@tC@\\?J?J?J@H?PBL@LBHBJBJDHBNHLFJJNJJJTVX^v@hAv@jAnBrCvB|CPT`@l@hF`IjAfBfA~AfDzEvApBlAfBfA~ATZTZX\\TVVVPPNL\\^XRTPTL\\T^P`@P^NVHd@Ld@LVDRBRBRBTBT@T@P?P@b@AV?XCZATCTEZEXEZGRGTGRGRGb@ONIPGRINIPKPITOTMTQTOXUVUVSTUTWTWJK^e@NSPWb@q@z@uAz@uAq@v@v@oA^m@\\k@^k@r@kAT_@Va@T]T[RYJKLOHIHINQNONOPORQVQTOROLILGVOXMXMTITITITGNEPCNEPCPC^GXCVANA\\AN?L?N?\\?P@`@BN@LBL@NBTBHBJBVFXFZJr@Tb@NhA\\jEvA^N^J^LLB`@JB?HBJ@N@N@pA?f@Cf@Af@CnAKf@CTAR?R?R?P@P@F@F@L@LBLBLBLBZHjBh@jA\\fBf@fBf@`Bd@rCv@xAb@bA\\fA\\l@Px@VNDZJb@JTFl@JjARrGdAh@Hf@FZDVB^D~@Hz@DbADv@@t@@r@ArAAhDEJCFENOFM@KBSAYCQOWKIa@Sg@MYKYOSIUGECEAD?J@PBRDdAV`@J`@Jz@HmCq@aB_@EA_@IWCSAe@Ba@JgAXi@Nc@La@Jm@PWJSNORO^I^Ih@G`@G`@G\\E^E\\EXCXARCZAVARAVAVAR?\\?V?d@?\\@X@X@V@T@`@Ft@H|@Dl@N|AJ|AHjA@f@B^B|@@b@?b@@r@?b@A`@?b@A^A^An@Cp@En@C^A\\C\\KhAGf@E\\EZKx@G^Q`AG^Kf@Mh@Kf@Mf@[nAMf@w@zCSt@{@pDEPUz@e@fBo@`CYbAIZQp@mBrHkAzEYfAGZIZMp@Kt@EXEVCNGn@Gl@C`@CVATAXARCt@A\\AR?\\?\\?p@?`@B~@@T@d@@R@NB\\Bb@D^BZBVD\\BTDRBVF\\DRBRFVDTJb@J`@FTJb@N`@Nf@HTL\\Rf@rB~E|AtDlAvCrMh[h@nAvDfJx@nBx@bBnAvCVn@LXVn@JVHR?@FPHTJXJ^FXHXDRFTJd@F\\FZJj@DVDXJt@D^BVDXBZBZBZB`@Bd@@b@Bd@@b@@p@?p@?b@?b@Ab@A`@AZAZCf@Cb@E`@CZEXCXG\\EVEVETETETGRMh@IZIVKXIXO`@Q^O^S^Yh@Yf@i@~@eAbBwC~Ek@|@iAlB{@xAQXMTOVMVS`@GNGNMXGPKXITGTIVGTGREPGZI\\Gb@Y|AIh@c@zCe@|Cy@zFU~ASrAGf@Gb@EVOlA_@tCu@pFqCbSCPAPCXAXALAPAN?P?VAP@`@?R?N@NB^@L@N@L@PBTBLBL@LH`@FXHZDLDPFPBHNZFNFLHPJPNTNTNPTVRRTRbAz@n@f@fBvAXTXTXVVVPPNRNPNRRXP\\HPHPHPTj@HZHTFXDRH^DZDVDZD\\B`@B`@B^@f@@h@DbCN~GRbL\\jTF|CF|CF|CLvH@f@?f@@^?f@A\\?R?^ElB?ZC|@?h@An@Ax@?dB?bAAl@?Z?d@?p@?xA@tC?T?X?D@X?d@?f@?r@?xB?xA?^?d@?~@CdB?vA?h@?f@@\\?D?X?nD?zD?JAX@vC?X?Z?lC?ZAzD?R?`@ATAV?b@?HCx@?R?ZAbC?X?L?H?J@H?FBH@FBFJVJPPZHLHJBDFFDFFDFDDDDBLHVFND`@LVHXJJDJFHDJHHFHJNNDFFHHLHLHPFRVr@lEdMN`@HVDJFLNPFJDFBDDDFFJJLLHFFDHDRJJBFBFBD@JBH@N@J@tAAN?H?F?lAAZAH?J?lCEJ?NAz@GXApA@B?LA\\?RCB?JC`@ID?D?F?B?F?F@HBJBZPVJbCfAbBt@^TnB|@BBPFNDNFt@TZLpBz@p@ZrAj@HFFFDJBJ@J?HAD?HCHAN[`BCNGd@Ov@QbAGb@GXi@|CEREXShAO|@ETCJAJCLm@hDCJCJAJg@rCCNEPEVm@jDCPKh@G`@CNYzAMx@I`@AHI`@e@pCEVA@?BCNENe@lCEVo@tDEPE\\k@zCEVETi@|CCLCRi@zCCNG\\g@rCCLAHAD?D?H?H?H@HLlAJhA@J@F@D@D@DDHBDDFBBD@LFJD~An@JFJFJFpAx@ZT?@TPPPPNh@b@`@TZNFDLDpB~@JDbBt@FDFFDFBBDFFT@L@LAJCZIb@QbAOz@G\\EREXOj@W`AKb@Mr@c@jCObAO`AI|@Iv@APUzCGv@Ep@?d@?ZBZHp@Nj@JZJRLPRRLNRNRJLHHDj@Rd@P\\NjCpApCpAtBdATPHFFHV\\lCtDDH~AbEHRdA~DdAtDz@tC`CzH|@lDxCjLd@vB\\xAF\\D\\`@pEJtAHnALzCDzCFxD"
+                        },
+                        "mode": "TRAM",
+                        "notes": [
+                            {
+                                "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules."
+                            }
+                        ],
+                        "rentedBike": null,
+                        "route": "MAX Red Line",
+                        "routeColor": null,
+                        "routeId": "90",
+                        "routeLongName": "MAX Red Line",
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": 0,
+                        "startTime": 1464893850000,
+                        "steps": null,
+                        "to": {
+                            "arrival": 1464896940000,
+                            "departure": 1464896940000,
+                            "lat": 45.510661,
+                            "lon": -122.717244,
+                            "name": "Washington Park MAX Station",
+                            "orig": null,
+                            "stopCode": "10121",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10121"
+                            },
+                            "stopIndex": 22,
+                            "zoneId": "R"
+                        },
+                        "tripBlockId": "9050",
+                        "tripId": "6406897",
+                        "tripShortName": null
+                    },
+                    {
+                        "agencyId": null,
+                        "agencyName": null,
+                        "agencyTimeZoneOffset": -25200000,
+                        "agencyUrl": null,
+                        "alerts": null,
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 134.17579157347487,
+                        "duration": 234000,
+                        "endTime": 1464897175000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.510689399058094,
+                            "lon": -122.71724503733653,
+                            "name": "Washington Park (path)",
+                            "orig": null,
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "headsign": null,
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": null,
+                        "legGeometry": {
+                            "length": 14,
+                            "levels": null,
+                            "points": "wxwtGxe_lVGqDF??O????HAJ@JBBa@@G@WH@DD"
+                        },
+                        "mode": "WALK",
+                        "notes": null,
+                        "rentedBike": null,
+                        "route": "",
+                        "routeColor": null,
+                        "routeId": null,
+                        "routeLongName": null,
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": null,
+                        "startTime": 1464896941000,
+                        "steps": [
+                            {
+                                "absoluteDirection": "EAST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 69.21431610907575,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.510689399058094,
+                                "lon": -122.71724503733653,
+                                "relativeDirection": null,
+                                "stayOn": false,
+                                "streetName": "Washington Park (path)"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 10.500620429057154,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 189.4435680188684
+                                    },
+                                    {
+                                        "first": 4.186624947801199,
+                                        "second": 189.3933882845253
+                                    },
+                                    {
+                                        "first": 4.186624947801199,
+                                        "second": 189.3933882845253
+                                    },
+                                    {
+                                        "first": 10.500620429057154,
+                                        "second": 189.28071924294605
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5107218,
+                                "lon": -122.716358,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 0.0,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": true,
+                                "streetName": "Elevator"
+                            },
+                            {
+                                "absoluteDirection": null,
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 0.0,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "ELEVATOR",
+                                "stayOn": false,
+                                "streetName": "default level"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 44.32996849170337,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 189.28071924294602
+                                    },
+                                    {
+                                        "first": 12.178892058263305,
+                                        "second": 188.97364578677514
+                                    },
+                                    {
+                                        "first": 12.178892058263305,
+                                        "second": 188.97364578677514
+                                    },
+                                    {
+                                        "first": 18.86406412979962,
+                                        "second": 188.770711311306
+                                    },
+                                    {
+                                        "first": 18.86406412979962,
+                                        "second": 188.770711311306
+                                    },
+                                    {
+                                        "first": 31.882810970591553,
+                                        "second": 188.0174810718956
+                                    },
+                                    {
+                                        "first": 31.882810970591553,
+                                        "second": 188.0174810718956
+                                    },
+                                    {
+                                        "first": 35.48703314228264,
+                                        "second": 187.86320633936862
+                                    },
+                                    {
+                                        "first": 35.48703314228264,
+                                        "second": 187.86320633936862
+                                    },
+                                    {
+                                        "first": 44.32996849170337,
+                                        "second": 187.64595871858683
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "CONTINUE",
+                                "stayOn": false,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 10.130886543638603,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 187.64595871858683
+                                    },
+                                    {
+                                        "first": 10.130886543638603,
+                                        "second": 187.42785661315787
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5104792,
+                                "lon": -122.7159693,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "Southwest Zoo Road"
+                            }
+                        ],
+                        "to": {
+                            "arrival": 1464897175000,
+                            "departure": 1464897175000,
+                            "lat": 45.510242,
+                            "lon": -122.715904,
+                            "name": "Zoo",
+                            "orig": "Zoo",
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "tripBlockId": null,
+                        "tripId": null,
+                        "tripShortName": null
+                    }
+                ],
+                "startTime": 1464893646000,
+                "tooSloped": false,
+                "transfers": 0,
+                "transitTime": 3090,
+                "waitingTime": 2,
+                "walkDistance": 363.4967660055586,
+                "walkTime": 437
+            },
+            {
+                "duration": 3529000,
+                "elevationGained": 2.972106909398571,
+                "elevationLost": 204.85863780121824,
+                "endTime": 1464898075000,
+                "fare": {
+                    "fare": {
+                        "regular": {
+                            "cents": 250,
+                            "currency": {
+                                "currency": "USD",
+                                "currencyCode": "USD",
+                                "defaultFractionDigits": 2,
+                                "symbol": "$"
+                            }
+                        }
+                    }
+                },
+                "legs": [
+                    {
+                        "agencyId": null,
+                        "agencyName": null,
+                        "agencyTimeZoneOffset": -25200000,
+                        "agencyUrl": null,
+                        "alerts": null,
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 228.9784932401271,
+                        "duration": 203000,
+                        "endTime": 1464894749000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.588927600849516,
+                            "lon": -122.5928154509905,
+                            "name": "PDX",
+                            "orig": "PDX",
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "headsign": null,
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": null,
+                        "legGeometry": {
+                            "length": 13,
+                            "levels": null,
+                            "points": "waguGb|fkVn@f@GVz@l@CFELd@\\t@SBAf@_@@C`@c@FI"
+                        },
+                        "mode": "WALK",
+                        "notes": null,
+                        "rentedBike": null,
+                        "route": "",
+                        "routeColor": null,
+                        "routeId": null,
+                        "routeLongName": null,
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": null,
+                        "startTime": 1464894546000,
+                        "steps": [
+                            {
+                                "absoluteDirection": "SOUTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 31.128926438272885,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.588927600849516,
+                                "lon": -122.5928154509905,
+                                "relativeDirection": null,
+                                "stayOn": false,
+                                "streetName": "PDX"
+                            },
+                            {
+                                "absoluteDirection": "NORTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 52.4880509373801,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5886833,
+                                "lon": -122.5930108,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "footbridge"
+                            },
+                            {
+                                "absoluteDirection": "SOUTHWEST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 139.45148650165817,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": -14.45867427866179
+                                    },
+                                    {
+                                        "first": 10.0,
+                                        "second": -14.535506392946404
+                                    },
+                                    {
+                                        "first": 20.0,
+                                        "second": -14.515084979138358
+                                    },
+                                    {
+                                        "first": 30.0,
+                                        "second": -14.51003334971756
+                                    },
+                                    {
+                                        "first": 40.0,
+                                        "second": -14.509392696381436
+                                    },
+                                    {
+                                        "first": 50.0,
+                                        "second": -14.519892729396034
+                                    },
+                                    {
+                                        "first": 61.06129201986156,
+                                        "second": -14.545506565227994
+                                    },
+                                    {
+                                        "first": 61.06129201986156,
+                                        "second": -14.545506565227994
+                                    },
+                                    {
+                                        "first": 62.79982612255992,
+                                        "second": -14.564635689681253
+                                    },
+                                    {
+                                        "first": 62.79982612255992,
+                                        "second": -14.564635689681255
+                                    },
+                                    {
+                                        "first": 72.79982612255992,
+                                        "second": -14.630729586436784
+                                    },
+                                    {
+                                        "first": 82.79982612255992,
+                                        "second": -14.59967516853705
+                                    },
+                                    {
+                                        "first": 88.48282104762654,
+                                        "second": -14.52364116005515
+                                    },
+                                    {
+                                        "first": 114.16581597269318,
+                                        "second": -14.52364116005515
+                                    },
+                                    {
+                                        "first": 116.01153490332027,
+                                        "second": -14.509053541051138
+                                    },
+                                    {
+                                        "first": 116.01153490332027,
+                                        "second": -14.509053541051138
+                                    },
+                                    {
+                                        "first": 126.01153490332027,
+                                        "second": -14.815524457019908
+                                    },
+                                    {
+                                        "first": 139.45148650165817,
+                                        "second": -15.168188510553023
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5884448,
+                                "lon": -122.5934087,
+                                "relativeDirection": "LEFT",
+                                "stayOn": true,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTHEAST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 5.910029362815963,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": -15.168188095092773
+                                    },
+                                    {
+                                        "first": 5.910029411315918,
+                                        "second": -15.267279624938965
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5876195,
+                                "lon": -122.593152,
+                                "relativeDirection": "CONTINUE",
+                                "stayOn": false,
+                                "streetName": "Portland Airport (path)"
+                            }
+                        ],
+                        "to": {
+                            "arrival": 1464894750000,
+                            "departure": 1464894750000,
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "name": "Portland Int'l Airport MAX Station",
+                            "orig": null,
+                            "stopCode": "10579",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10579"
+                            },
+                            "stopIndex": null,
+                            "zoneId": "R"
+                        },
+                        "tripBlockId": null,
+                        "tripId": null,
+                        "tripShortName": null
+                    },
+                    {
+                        "agencyId": "TRIMET",
+                        "agencyName": "TriMet",
+                        "agencyTimeZoneOffset": 0,
+                        "agencyUrl": "http://trimet.org/",
+                        "alerts": [
+                            {
+                                "alertDescriptionText": {
+                                    "someTranslation": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules.",
+                                    "translations": {
+                                        "": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules."
+                                    }
+                                },
+                                "alertHeaderText": {
+                                    "someTranslation": null,
+                                    "translations": {}
+                                },
+                                "alertUrl": {
+                                    "someTranslation": "http://trimet.org/alerts/",
+                                    "translations": {
+                                        "": "http://trimet.org/alerts/"
+                                    }
+                                },
+                                "effectiveStartDate": 1465088400000
+                            }
+                        ],
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 21441.970310366058,
+                        "duration": 3090000,
+                        "endTime": 1464897840000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.587584,
+                            "lon": -122.5931,
+                            "name": "Portland Int'l Airport MAX Station",
+                            "orig": null,
+                            "stopCode": "10579",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10579"
+                            },
+                            "stopIndex": 0,
+                            "zoneId": "R"
+                        },
+                        "headsign": "City Center & Beaverton",
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "length": 1187,
+                            "levels": null,
+                            "points": "oyfuGr}fkVdAcAXUd@g@POLMFEHEFERMRMb@WPMLKLMLOJOFIFMDIFMFMDKDO`@uAb@{AbAmDvA_FPo@FWFWBQBOBQBK@QBUB]@Q@]@O?Q?Q?Q?O?QAUCe@AOAQCUCSEUEWEQCMKc@a@yAGWEOEOCMCMCMCOAKAMCOAO?QAO?O@O?O@O@QBOD]BIBMBMDSDOZiAT{@HYJ_@p@aC~@eDp@oBPi@H[JYJ[p@_C^uALa@Tq@Na@X}@L_@J_@l@uBlAgEb@wAVaAJ[Ja@T}@Ha@Pk@Ps@J[FSFWNi@x@wCz@yCt@eC|@_DJ[DMFOBKN_@FMFMN[FKR]HMHMHKFGHMJMLMHIJIJKPMHGFGTMNKLGJEXMRGFCTG\\KzAYRCREf@K^GRE\\G\\G^Gr@M^K^KZKNILGLINININMVSLMJKHKJKJMLOLQJOHMFMR_@FMFMJWFQFKHWBKL_@xAcFj@qBHYFWBODMBKBMBO@M@KBO@O@M@O?M@O?O?Q?SAa@AYCe@KwCAWAYAS?M?O?W?K@K@M@M@ODSBMBMBOBKJ]DQt@gCLc@DOHWDOHSBIDILUHOHKHKHIJIHEJIJELELEJCLAJAN?RAV?tMBpD@tC@\\?J?J?J@H?PBL@LBHBJBJDHBNHLFJJNJJJTVX^v@hAv@jAnBrCvB|CPT`@l@hF`IjAfBfA~AfDzEvApBlAfBfA~ATZTZX\\TVVVPPNL\\^XRTPTL\\T^P`@P^NVHd@Ld@LVDRBRBRBTBT@T@P?P@b@AV?XCZATCTEZEXEZGRGTGRGRGb@ONIPGRINIPKPITOTMTQTOXUVUVSTUTWTWJK^e@NSPWb@q@z@uAz@uAq@v@v@oA^m@\\k@^k@r@kAT_@Va@T]T[RYJKLOHIHINQNONOPORQVQTOROLILGVOXMXMTITITITGNEPCNEPCPC^GXCVANA\\AN?L?N?\\?P@`@BN@LBL@NBTBHBJBVFXFZJr@Tb@NhA\\jEvA^N^J^LLB`@JB?HBJ@N@N@pA?f@Cf@Af@CnAKf@CTAR?R?R?P@P@F@F@L@LBLBLBLBZHjBh@jA\\fBf@fBf@`Bd@rCv@xAb@bA\\fA\\l@Px@VNDZJb@JTFl@JjARrGdAh@Hf@FZDVB^D~@Hz@DbADv@@t@@r@ArAAhDEJCFENOFM@KBSAYCQOWKIa@Sg@MYKYOSIUGECEAD?J@PBRDdAV`@J`@Jz@HmCq@aB_@EA_@IWCSAe@Ba@JgAXi@Nc@La@Jm@PWJSNORO^I^Ih@G`@G`@G\\E^E\\EXCXARCZAVARAVAVAR?\\?V?d@?\\@X@X@V@T@`@Ft@H|@Dl@N|AJ|AHjA@f@B^B|@@b@?b@@r@?b@A`@?b@A^A^An@Cp@En@C^A\\C\\KhAGf@E\\EZKx@G^Q`AG^Kf@Mh@Kf@Mf@[nAMf@w@zCSt@{@pDEPUz@e@fBo@`CYbAIZQp@mBrHkAzEYfAGZIZMp@Kt@EXEVCNGn@Gl@C`@CVATAXARCt@A\\AR?\\?\\?p@?`@B~@@T@d@@R@NB\\Bb@D^BZBVD\\BTDRBVF\\DRBRFVDTJb@J`@FTJb@N`@Nf@HTL\\Rf@rB~E|AtDlAvCrMh[h@nAvDfJx@nBx@bBnAvCVn@LXVn@JVHR?@FPHTJXJ^FXHXDRFTJd@F\\FZJj@DVDXJt@D^BVDXBZBZBZB`@Bd@@b@Bd@@b@@p@?p@?b@?b@Ab@A`@AZAZCf@Cb@E`@CZEXCXG\\EVEVETETETGRMh@IZIVKXIXO`@Q^O^S^Yh@Yf@i@~@eAbBwC~Ek@|@iAlB{@xAQXMTOVMVS`@GNGNMXGPKXITGTIVGTGREPGZI\\Gb@Y|AIh@c@zCe@|Cy@zFU~ASrAGf@Gb@EVOlA_@tCu@pFqCbSCPAPCXAXALAPAN?P?VAP@`@?R?N@NB^@L@N@L@PBTBLBL@LH`@FXHZDLDPFPBHNZFNFLHPJPNTNTNPTVRRTRbAz@n@f@fBvAXTXTXVVVPPNRNPNRRXP\\HPHPHPTj@HZHTFXDRH^DZDVDZD\\B`@B`@B^@f@@h@DbCN~GRbL\\jTF|CF|CF|CLvH@f@?f@@^?f@A\\?R?^ElB?ZC|@?h@An@Ax@?dB?bAAl@?Z?d@?p@?xA@tC?T?X?D@X?d@?f@?r@?xB?xA?^?d@?~@CdB?vA?h@?f@@\\?D?X?nD?zD?JAX@vC?X?Z?lC?ZAzD?R?`@ATAV?b@?HCx@?R?ZAbC?X?L?H?J@H?FBH@FBFJVJPPZHLHJBDFFDFFDFDDDDBLHVFND`@LVHXJJDJFHDJHHFHJNNDFFHHLHLHPFRVr@lEdMN`@HVDJFLNPFJDFBDDDFFJJLLHFFDHDRJJBFBFBD@JBH@N@J@tAAN?H?F?lAAZAH?J?lCEJ?NAz@GXApA@B?LA\\?RCB?JC`@ID?D?F?B?F?F@HBJBZPVJbCfAbBt@^TnB|@BBPFNDNFt@TZLpBz@p@ZrAj@HFFFDJBJ@J?HAD?HCHAN[`BCNGd@Ov@QbAGb@GXi@|CEREXShAO|@ETCJAJCLm@hDCJCJAJg@rCCNEPEVm@jDCPKh@G`@CNYzAMx@I`@AHI`@e@pCEVA@?BCNENe@lCEVo@tDEPE\\k@zCEVETi@|CCLCRi@zCCNG\\g@rCCLAHAD?D?H?H?H@HLlAJhA@J@F@D@D@DDHBDDFBBD@LFJD~An@JFJFJFpAx@ZT?@TPPPPNh@b@`@TZNFDLDpB~@JDbBt@FDFFDFBBDFFT@L@LAJCZIb@QbAOz@G\\EREXOj@W`AKb@Mr@c@jCObAO`AI|@Iv@APUzCGv@Ep@?d@?ZBZHp@Nj@JZJRLPRRLNRNRJLHHDj@Rd@P\\NjCpApCpAtBdATPHFFHV\\lCtDDH~AbEHRdA~DdAtDz@tC`CzH|@lDxCjLd@vB\\xAF\\D\\`@pEJtAHnALzCDzCFxD"
+                        },
+                        "mode": "TRAM",
+                        "notes": [
+                            {
+                                "text": "On Saturday, June 4, from about 6 p.m. to midnight, expect crowded trains and delays due to the Starlight Run and Parade. All MAX stations are open and MAX is running on Saturday schedules."
+                            }
+                        ],
+                        "rentedBike": null,
+                        "route": "MAX Red Line",
+                        "routeColor": null,
+                        "routeId": "90",
+                        "routeLongName": "MAX Red Line",
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": 0,
+                        "startTime": 1464894750000,
+                        "steps": null,
+                        "to": {
+                            "arrival": 1464897840000,
+                            "departure": 1464897840000,
+                            "lat": 45.510661,
+                            "lon": -122.717244,
+                            "name": "Washington Park MAX Station",
+                            "orig": null,
+                            "stopCode": "10121",
+                            "stopId": {
+                                "agencyId": "TRIMET",
+                                "id": "10121"
+                            },
+                            "stopIndex": 22,
+                            "zoneId": "R"
+                        },
+                        "tripBlockId": "9043",
+                        "tripId": "6406898",
+                        "tripShortName": null
+                    },
+                    {
+                        "agencyId": null,
+                        "agencyName": null,
+                        "agencyTimeZoneOffset": -25200000,
+                        "agencyUrl": null,
+                        "alerts": null,
+                        "alightRule": null,
+                        "boardRule": null,
+                        "bogusNonTransitLeg": false,
+                        "distance": 134.17579157347487,
+                        "duration": 234000,
+                        "endTime": 1464898075000,
+                        "from": {
+                            "arrival": null,
+                            "departure": null,
+                            "lat": 45.510689399058094,
+                            "lon": -122.71724503733653,
+                            "name": "Washington Park (path)",
+                            "orig": null,
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "headsign": null,
+                        "interlineWithPreviousLeg": null,
+                        "intermediateStops": null,
+                        "legGeometry": {
+                            "length": 14,
+                            "levels": null,
+                            "points": "wxwtGxe_lVGqDF??O????HAJ@JBBa@@G@WH@DD"
+                        },
+                        "mode": "WALK",
+                        "notes": null,
+                        "rentedBike": null,
+                        "route": "",
+                        "routeColor": null,
+                        "routeId": null,
+                        "routeLongName": null,
+                        "routeShortName": null,
+                        "routeTextColor": null,
+                        "routeType": null,
+                        "startTime": 1464897841000,
+                        "steps": [
+                            {
+                                "absoluteDirection": "EAST",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 69.21431610907575,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.510689399058094,
+                                "lon": -122.71724503733653,
+                                "relativeDirection": null,
+                                "stayOn": false,
+                                "streetName": "Washington Park (path)"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 10.500620429057154,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 189.4435680188684
+                                    },
+                                    {
+                                        "first": 4.186624947801199,
+                                        "second": 189.3933882845253
+                                    },
+                                    {
+                                        "first": 4.186624947801199,
+                                        "second": 189.3933882845253
+                                    },
+                                    {
+                                        "first": 10.500620429057154,
+                                        "second": 189.28071924294605
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5107218,
+                                "lon": -122.716358,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 0.0,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": true,
+                                "streetName": "Elevator"
+                            },
+                            {
+                                "absoluteDirection": null,
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 0.0,
+                                "elevation": [],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "ELEVATOR",
+                                "stayOn": false,
+                                "streetName": "default level"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": true,
+                                "distance": 44.32996849170337,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 189.28071924294602
+                                    },
+                                    {
+                                        "first": 12.178892058263305,
+                                        "second": 188.97364578677514
+                                    },
+                                    {
+                                        "first": 12.178892058263305,
+                                        "second": 188.97364578677514
+                                    },
+                                    {
+                                        "first": 18.86406412979962,
+                                        "second": 188.770711311306
+                                    },
+                                    {
+                                        "first": 18.86406412979962,
+                                        "second": 188.770711311306
+                                    },
+                                    {
+                                        "first": 31.882810970591553,
+                                        "second": 188.0174810718956
+                                    },
+                                    {
+                                        "first": 31.882810970591553,
+                                        "second": 188.0174810718956
+                                    },
+                                    {
+                                        "first": 35.48703314228264,
+                                        "second": 187.86320633936862
+                                    },
+                                    {
+                                        "first": 35.48703314228264,
+                                        "second": 187.86320633936862
+                                    },
+                                    {
+                                        "first": 44.32996849170337,
+                                        "second": 187.64595871858683
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5106874,
+                                "lon": -122.7162743,
+                                "relativeDirection": "CONTINUE",
+                                "stayOn": false,
+                                "streetName": "path"
+                            },
+                            {
+                                "absoluteDirection": "SOUTH",
+                                "alerts": null,
+                                "area": false,
+                                "bogusName": false,
+                                "distance": 10.130886543638603,
+                                "elevation": [
+                                    {
+                                        "first": 0.0,
+                                        "second": 187.64595871858683
+                                    },
+                                    {
+                                        "first": 10.130886543638603,
+                                        "second": 187.42785661315787
+                                    }
+                                ],
+                                "exit": null,
+                                "lat": 45.5104792,
+                                "lon": -122.7159693,
+                                "relativeDirection": "RIGHT",
+                                "stayOn": false,
+                                "streetName": "Southwest Zoo Road"
+                            }
+                        ],
+                        "to": {
+                            "arrival": 1464898075000,
+                            "departure": 1464898075000,
+                            "lat": 45.510242,
+                            "lon": -122.715904,
+                            "name": "Zoo",
+                            "orig": "Zoo",
+                            "stopCode": null,
+                            "stopId": null,
+                            "stopIndex": null,
+                            "zoneId": null
+                        },
+                        "tripBlockId": null,
+                        "tripId": null,
+                        "tripShortName": null
+                    }
+                ],
+                "startTime": 1464894546000,
+                "tooSloped": false,
+                "transfers": 0,
+                "transitTime": 3090,
+                "waitingTime": 2,
+                "walkDistance": 363.4967660055586,
+                "walkTime": 437
+            }
+        ],
+        "to": {
+            "arrival": null,
+            "departure": null,
+            "lat": 45.510242,
+            "lon": -122.715904,
+            "name": "Zoo",
+            "orig": null,
+            "stopCode": null,
+            "stopId": null,
+            "stopIndex": null,
+            "zoneId": null
+        }
+    },
+    "requestParameters": {
+        "arriveBy": "false",
+        "date": "2016-6-2",
+        "fromPlace": "PDX::45.58918,-122.59346",
+        "maxHours": "6",
+        "maxWalkDistance": "1260.0",
+        "mode": "TRANSIT,WALK",
+        "optimize": "QUICK",
+        "time": "11:31am",
+        "toPlace": "Zoo::45.510242,-122.715904"
+    }
+}
+No handlers could be found for logger "c:\dev_projects\ott\otp_client_py\ott\otp_client\trip_planner.py"

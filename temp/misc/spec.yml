@@ -1,0 +1,68 @@
+parameters:
+  - name: app_id
+    type: string
+    required: True
+  - name: arrive_by
+    type: boolean
+    default: False
+  - name: bike_custom
+    type: array
+    items:
+      default: 33.3
+      type: float
+    collectionFormat: pipes
+  - name: bike_type
+    type: string
+    default: bike_friendly
+    enum:
+      - bike_friendly
+      - custom
+      - quick
+  - name: bike_max
+    type: float
+    description: maximum biking distance for trip in miles
+    default: 3
+    minimum: 0.1
+  - name: date
+    type: date
+    default: now.strftime('%Y-%m-%d')
+  - name: format
+    type: string fields.Str(
+    default: JSON
+    enum:
+      - JSON
+      - XML
+  - name: from
+    type: string
+    required: True
+  - name: itineraries_max
+    type: integer
+    default: 3
+    minimum: 1
+    maximum: 6
+  - name: mode
+    type: string
+    default: transit
+    enum:
+      - bicycle
+      - bus
+      - train
+      - transit
+      - transit+bicycle
+      - walk
+  - name: time
+    type: dateTime
+    default: now.strftime('%H:%M:%S')
+  - name: to
+    type: string
+    required: True
+  - name: transit_type
+    type: string
+    default: quick
+    enum:
+      - min_transfers
+      - quick
+  - name: walk_max
+    type: float
+    default: 0.5
+    minimum: 0.1

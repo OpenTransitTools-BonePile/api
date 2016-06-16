@@ -1,6 +1,4 @@
 *.pyc
-log/
-misc/
 
 # intellij config file
 .idea
