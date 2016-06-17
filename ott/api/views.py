@@ -46,9 +46,11 @@ Pertinent OpenTripPlanner Docs/Code
   https://github.com/opentripplanner/OpenTripPlanner/blob/3eda2fa511f8404422dcff02a8d018f65833cbdd/otp-rest-api/src/main/java/org/opentripplanner/api/common/RoutingResource.java
 - otp api docs for 0.20.0
   http://dev.opentripplanner.org/apidoc/0.20.0/resource_PlannerResource.html
+
+Other Resources:
+- swagger editor: http://editor.swagger.io/#/
 """
 
-import os
 import sys
 from inspect import getsourcefile
 from os.path import abspath, dirname, join
@@ -222,17 +224,16 @@ class TripPlan(Resource):
         otp_url = 'http://maps.trimet.org/prod'
         solr_url = 'http://maps.trimet.org/solr'
         planner = TripPlanner(otp_url=otp_url, solr=solr_url)
-        plan = planner.plan_trip(args, pretty=True, jsonify=False)
+        plan = planner.plan_trip(args, pretty=True)
 
-        response = ResponseSchema().dump(plan)
+        # response = ResponseSchema().dump(plan)
 
         if response_format == 'XML':
             pass
 
         # app.logger.debug(args)
 
-        print '"{}"'.format(response.errors)
-        return jsonify(response.data)
+        return jsonify(plan)
 
 
 @parser.error_handler
