@@ -225,15 +225,17 @@ class TripPlan(Resource):
         solr_url = 'http://maps.trimet.org/solr'
         planner = TripPlanner(otp_url=otp_url, solr=solr_url)
         plan = planner.plan_trip(args, pretty=True)
-
-        # response = ResponseSchema().dump(plan)
+        response_schema = ResponseSchema()
+        response, errors = response_schema.dump(plan)
 
         if response_format == 'XML':
             pass
+        elif response_format == 'JSON':
+            response = jsonify(response)
 
         # app.logger.debug(args)
 
-        return jsonify(plan)
+        return response, 200
 
 
 @parser.error_handler

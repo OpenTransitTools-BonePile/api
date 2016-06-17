@@ -1,4 +1,4 @@
-from marshmallow import fields, validate, Schema
+from marshmallow import fields, Schema
 
 
 class AlertSchema(Schema):
@@ -10,7 +10,7 @@ class AlertSchema(Schema):
     start_time_pretty = fields.Str()
     text = fields.Str()
     type = fields.Str()
-    url = fields.Str(validate=validate.URL)
+    url = fields.Url()
 
 
 class DistanceSchema(Schema):
@@ -54,15 +54,15 @@ class GradeSchema(Schema):
 
 class ElevationSchema(Schema):
     distance = fields.Float()
-    end_ft = fields.Str()  # should be coming in as float not str
-    fall_ft = fields.Str()  # should be coming in as float not str
+    end_ft = fields.Float()
+    fall_ft = fields.Float()
     grade = fields.Nested(GradeSchema)
-    high_ft = fields.Str()  # should be coming in as float not str
-    low_ft = fields.Str()  # should be coming in as float not str
+    high_ft = fields.Float()
+    low_ft = fields.Float()
     points = fields.Str()
     points_array = fields.List(fields.Float)
-    rise_ft = fields.Str()  # should be coming in as float not str
-    start_ft = fields.Str()  # should be coming in as float not str
+    rise_ft = fields.Float()
+    start_ft = fields.Float()
 
 
 class ErrorSchema(Schema):
@@ -79,7 +79,7 @@ class LocationSchema(Schema):
 
     lat = fields.Float()
     lon = fields.Float()
-    map_img = fields.Str(validate=validate.URL)
+    map_img = fields.Url
     name = fields.Str()
     stop = fields.Str()
 
@@ -122,11 +122,11 @@ class ItinerarySchema(Schema):
     legs = fields.List(fields.Nested(LegSchema))
     selected = fields.Bool()
     transfers = fields.Int()
-    url = fields.Str(validate=validate.URL)
+    url = fields.Url
 
 
 class PlanSchema(Schema):
-    from_ = fields.Nested(LocationSchema)
+    from_ = fields.Nested(LocationSchema, load_from='from', dump_to='from')
     itineraries = fields.List(fields.Nested(ItinerarySchema))
     to = fields.Nested(LocationSchema)
 
